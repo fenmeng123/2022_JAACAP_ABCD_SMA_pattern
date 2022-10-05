@@ -1,0 +1,1 @@
+# 2022_JAACAP_ABCD_SMA_pattern
