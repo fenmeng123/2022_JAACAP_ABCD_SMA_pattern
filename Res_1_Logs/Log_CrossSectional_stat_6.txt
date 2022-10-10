@@ -1,0 +1,1737 @@
+Key variables:
+    {'eventname'}    {'interview_age'}    {'interview_date'}    {'sex'}    {'src_subject_id'}
+
+Missing number in the demographic variables
+  列 1 至 10
+
+    {'Idx'}    {'Rela'}    {'Edu'}    {'Race'}    {'PrntMari'}    {'PrntEmp'}    {'PrntEdu'}    {'FamSize'}    {'AnoHouse'}    {'BirthCoun'}
+    {[ 61]}    {[   0]}    {[  2]}    {[ 121]}    {[      96]}    {[    954]}    {[     14]}    {[    280]}    {[      84]}    {[      187]}
+
+  列 11
+
+    {'FamIncome'}
+    {[     1018]}
+
+Recoding the demographics from R type to MATLAB type......
+check and change the cluster index number......
+raw cluster index number from kmeans  Value    Count   Percent
+      1     8664     73.33%
+      2     3151     26.67%
+new cluster index number  Value    Count   Percent
+      1     3151     26.67%
+      2     8664     73.33%
+Recoding finished!
+9627 subjects passed the rsfmri RecomendImgIncl
+8541 subjects left after demographics cleaning and image inclusion check
+LME formula:Single_Y~Idx+rsfmri_c_ngd_meanmotion+interview_age+sex+Handedness+Race_PrntRep+Ethnicity_PrntRep+ParentsEdu+ParentMarital+FamilyIncome+HouseholdSize+HouseholdStructure+(1|site_id_l)+(1|site_id_l:FamilyID)
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 8).
+# rsfmri_c_ngd_cgc_ngd_cgc #3
+# rsfmri_c_ngd_ca_ngd_ca #6
+# rsfmri_c_ngd_dt_ngd_ca #9
+# rsfmri_c_ngd_dla_ngd_cgc #12
+# rsfmri_c_ngd_dla_ngd_dla #15
+# rsfmri_c_ngd_fo_ngd_ca #18
+# rsfmri_c_ngd_fo_ngd_fo #21
+# rsfmri_c_ngd_n_ngd_ca #24
+estimating full linear mixed-effcet model # 3
+get fixed effects and related statistics # 3
+estimating full linear mixed-effcet model # 6
+get fixed effects and related statistics # 6
+estimating full linear mixed-effcet model # 9
+get fixed effects and related statistics # 9
+estimating full linear mixed-effcet model # 21
+get fixed effects and related statistics # 21
+estimating full linear mixed-effcet model # 24
+get fixed effects and related statistics # 24
+estimating full linear mixed-effcet model # 12
+get fixed effects and related statistics # 12
+estimating full linear mixed-effcet model # 18
+get fixed effects and related statistics # 18
+# rsfmri_c_ngd_cgc_ngd_ad #2
+# rsfmri_c_ngd_ca_ngd_cgc #5
+estimating full linear mixed-effcet model # 5
+get fixed effects and related statistics # 5
+# rsfmri_c_ngd_dt_ngd_cgc #8
+estimating full linear mixed-effcet model # 8
+get fixed effects and related statistics # 8
+# rsfmri_c_ngd_dla_ngd_ad #11
+estimating full linear mixed-effcet model # 15
+get fixed effects and related statistics # 15
+# rsfmri_c_ngd_fo_ngd_cgc #17
+# rsfmri_c_ngd_fo_ngd_dla #20
+estimating full linear mixed-effcet model # 20
+get fixed effects and related statistics # 20
+# rsfmri_c_ngd_n_ngd_cgc #23
+estimating full linear mixed-effcet model # 23
+get fixed effects and related statistics # 23
+estimating full linear mixed-effcet model # 2
+get fixed effects and related statistics # 2
+# rsfmri_c_ngd_dt_ngd_ad #7
+estimating full linear mixed-effcet model # 11
+get fixed effects and related statistics # 11
+# rsfmri_c_ngd_dla_ngd_dt #14
+estimating full linear mixed-effcet model # 14
+get fixed effects and related statistics # 14
+estimating full linear mixed-effcet model # 17
+get fixed effects and related statistics # 17
+# rsfmri_c_ngd_ad_ngd_ad #1
+# rsfmri_c_ngd_ca_ngd_ad #4
+# rsfmri_c_ngd_dt_ngd_dt #10
+# rsfmri_c_ngd_fo_ngd_dt #19
+# rsfmri_c_ngd_n_ngd_ad #22
+# rsfmri_c_ngd_dla_ngd_ca #13
+# rsfmri_c_ngd_fo_ngd_ad #16
+estimating full linear mixed-effcet model # 1
+get fixed effects and related statistics # 1
+estimating full linear mixed-effcet model # 4
+get fixed effects and related statistics # 4
+estimating full linear mixed-effcet model # 7
+get fixed effects and related statistics # 7
+estimating full linear mixed-effcet model # 10
+get fixed effects and related statistics # 10
+estimating full linear mixed-effcet model # 13
+get fixed effects and related statistics # 13
+estimating full linear mixed-effcet model # 19
+get fixed effects and related statistics # 19
+estimating full linear mixed-effcet model # 22
+get fixed effects and related statistics # 22
+# rsfmri_c_ngd_vs_ngd_fo #84
+estimating full linear mixed-effcet model # 16
+get fixed effects and related statistics # 16
+# rsfmri_c_ngd_smh_ngd_rspltp #44
+# rsfmri_c_ngd_sa_ngd_smh #64
+# rsfmri_cor_ngd_au_scs_cderh #104
+# rsfmri_cor_ngd_df_scs_hprh #164
+# rsfmri_cor_ngd_dsa_scs_agrh #184
+# rsfmri_cor_ngd_cerc_scs_ptrh #124
+# rsfmri_cor_ngd_copa_scs_plrh #144
+estimating full linear mixed-effcet model # 64
+get fixed effects and related statistics # 64
+estimating full linear mixed-effcet model # 164
+get fixed effects and related statistics # 164
+estimating full linear mixed-effcet model # 44
+get fixed effects and related statistics # 44
+estimating full linear mixed-effcet model # 84
+get fixed effects and related statistics # 84
+estimating full linear mixed-effcet model # 104
+get fixed effects and related statistics # 104
+estimating full linear mixed-effcet model # 184
+get fixed effects and related statistics # 184
+# rsfmri_c_ngd_smh_ngd_n #43
+# rsfmri_c_ngd_sa_ngd_rspltp #63
+# rsfmri_c_ngd_vs_ngd_dla #83
+# rsfmri_cor_ngd_au_scs_thprh #103
+estimating full linear mixed-effcet model # 124
+get fixed effects and related statistics # 124
+estimating full linear mixed-effcet model # 144
+get fixed effects and related statistics # 144
+# rsfmri_cor_ngd_df_scs_plrh #163
+# rsfmri_cor_ngd_dsa_scs_hprh #183
+# rsfmri_cor_ngd_cerc_scs_cderh #123
+# rsfmri_cor_ngd_copa_scs_ptrh #143
+estimating full linear mixed-effcet model # 63
+get fixed effects and related statistics # 63
+estimating full linear mixed-effcet model # 83
+get fixed effects and related statistics # 83
+estimating full linear mixed-effcet model # 103
+get fixed effects and related statistics # 103
+estimating full linear mixed-effcet model # 163
+get fixed effects and related statistics # 163
+estimating full linear mixed-effcet model # 183
+get fixed effects and related statistics # 183
+estimating full linear mixed-effcet model # 43
+get fixed effects and related statistics # 43
+# rsfmri_c_ngd_sa_ngd_n #62
+# rsfmri_c_ngd_vs_ngd_dt #82
+# rsfmri_cor_ngd_au_scs_crcxrh #102
+estimating full linear mixed-effcet model # 123
+get fixed effects and related statistics # 123
+estimating full linear mixed-effcet model # 143
+get fixed effects and related statistics # 143
+# rsfmri_cor_ngd_df_scs_ptrh #162
+# rsfmri_cor_ngd_dsa_scs_plrh #182
+# rsfmri_c_ngd_smh_ngd_fo #42
+# rsfmri_cor_ngd_cerc_scs_thprh #122
+# rsfmri_cor_ngd_copa_scs_cderh #142
+estimating full linear mixed-effcet model # 62
+get fixed effects and related statistics # 62
+estimating full linear mixed-effcet model # 82
+get fixed effects and related statistics # 82
+estimating full linear mixed-effcet model # 102
+get fixed effects and related statistics # 102
+estimating full linear mixed-effcet model # 162
+get fixed effects and related statistics # 162
+estimating full linear mixed-effcet model # 182
+get fixed effects and related statistics # 182
+estimating full linear mixed-effcet model # 42
+get fixed effects and related statistics # 42
+# rsfmri_c_ngd_sa_ngd_fo #61
+# rsfmri_cor_ngd_au_scs_vtdclh #101
+estimating full linear mixed-effcet model # 122
+get fixed effects and related statistics # 122
+estimating full linear mixed-effcet model # 142
+get fixed effects and related statistics # 142
+# rsfmri_cor_ngd_df_scs_cderh #161
+# rsfmri_cor_ngd_dsa_scs_ptrh #181
+# rsfmri_c_ngd_smh_ngd_dla #41
+# rsfmri_c_ngd_vs_ngd_ca #81
+# rsfmri_cor_ngd_cerc_scs_crcxrh #121
+# rsfmri_cor_ngd_copa_scs_thprh #141
+estimating full linear mixed-effcet model # 61
+get fixed effects and related statistics # 61
+estimating full linear mixed-effcet model # 101
+get fixed effects and related statistics # 101
+estimating full linear mixed-effcet model # 161
+get fixed effects and related statistics # 161
+estimating full linear mixed-effcet model # 181
+get fixed effects and related statistics # 181
+estimating full linear mixed-effcet model # 41
+get fixed effects and related statistics # 41
+# rsfmri_c_ngd_sa_ngd_dla #60
+estimating full linear mixed-effcet model # 81
+get fixed effects and related statistics # 81
+# rsfmri_cor_ngd_au_scs_aalh #100
+estimating full linear mixed-effcet model # 121
+get fixed effects and related statistics # 121
+estimating full linear mixed-effcet model # 141
+get fixed effects and related statistics # 141
+# rsfmri_cor_ngd_df_scs_thprh #160
+# rsfmri_cor_ngd_dsa_scs_cderh #180
+# rsfmri_c_ngd_smh_ngd_dt #40
+# rsfmri_c_ngd_vs_ngd_cgc #80
+# rsfmri_cor_ngd_cerc_scs_vtdclh #120
+# rsfmri_cor_ngd_copa_scs_crcxrh #140
+estimating full linear mixed-effcet model # 180
+get fixed effects and related statistics # 180
+estimating full linear mixed-effcet model # 80
+get fixed effects and related statistics # 80
+estimating full linear mixed-effcet model # 100
+get fixed effects and related statistics # 100
+estimating full linear mixed-effcet model # 160
+get fixed effects and related statistics # 160
+estimating full linear mixed-effcet model # 40
+get fixed effects and related statistics # 40
+estimating full linear mixed-effcet model # 60
+get fixed effects and related statistics # 60
+# rsfmri_cor_ngd_au_scs_aglh #99
+estimating full linear mixed-effcet model # 120
+get fixed effects and related statistics # 120
+estimating full linear mixed-effcet model # 140
+get fixed effects and related statistics # 140
+# rsfmri_cor_ngd_df_scs_crcxrh #159
+# rsfmri_cor_ngd_dsa_scs_thprh #179
+# rsfmri_c_ngd_sa_ngd_dt #59
+# rsfmri_c_ngd_vs_ngd_ad #79
+# rsfmri_cor_ngd_cerc_scs_aalh #119
+# rsfmri_c_ngd_smh_ngd_ca #39
+# rsfmri_cor_ngd_copa_scs_vtdclh #139
+estimating full linear mixed-effcet model # 179
+get fixed effects and related statistics # 179
+estimating full linear mixed-effcet model # 99
+get fixed effects and related statistics # 99
+estimating full linear mixed-effcet model # 159
+get fixed effects and related statistics # 159
+estimating full linear mixed-effcet model # 59
+get fixed effects and related statistics # 59
+estimating full linear mixed-effcet model # 79
+get fixed effects and related statistics # 79
+# rsfmri_cor_ngd_au_scs_hplh #98
+estimating full linear mixed-effcet model # 119
+get fixed effects and related statistics # 119
+estimating full linear mixed-effcet model # 139
+get fixed effects and related statistics # 139
+# rsfmri_cor_ngd_df_scs_vtdclh #158
+# rsfmri_cor_ngd_dsa_scs_crcxrh #178
+estimating full linear mixed-effcet model # 39
+get fixed effects and related statistics # 39
+# rsfmri_c_ngd_sa_ngd_ca #58
+# rsfmri_c_ngd_vta_ngd_vta #78
+# rsfmri_cor_ngd_cerc_scs_aglh #118
+# rsfmri_cor_ngd_copa_scs_aalh #138
+# rsfmri_c_ngd_smh_ngd_cgc #38
+estimating full linear mixed-effcet model # 158
+get fixed effects and related statistics # 158
+estimating full linear mixed-effcet model # 178
+get fixed effects and related statistics # 178
+estimating full linear mixed-effcet model # 98
+get fixed effects and related statistics # 98
+estimating full linear mixed-effcet model # 58
+get fixed effects and related statistics # 58
+estimating full linear mixed-effcet model # 78
+get fixed effects and related statistics # 78
+# rsfmri_cor_ngd_au_scs_bs #97
+estimating full linear mixed-effcet model # 138
+get fixed effects and related statistics # 138
+# rsfmri_cor_ngd_df_scs_aalh #157
+# rsfmri_cor_ngd_dsa_scs_vtdclh #177
+estimating full linear mixed-effcet model # 38
+get fixed effects and related statistics # 38
+# rsfmri_c_ngd_sa_ngd_cgc #57
+# rsfmri_c_ngd_vta_ngd_sa #77
+estimating full linear mixed-effcet model # 118
+get fixed effects and related statistics # 118
+# rsfmri_cor_ngd_copa_scs_aglh #137
+# rsfmri_c_ngd_smh_ngd_ad #37
+# rsfmri_cor_ngd_cerc_scs_hplh #117
+estimating full linear mixed-effcet model # 157
+get fixed effects and related statistics # 157
+estimating full linear mixed-effcet model # 97
+get fixed effects and related statistics # 97
+estimating full linear mixed-effcet model # 177
+get fixed effects and related statistics # 177
+estimating full linear mixed-effcet model # 37
+get fixed effects and related statistics # 37
+estimating full linear mixed-effcet model # 77
+get fixed effects and related statistics # 77
+# rsfmri_cor_ngd_df_scs_aglh #156
+# rsfmri_cor_ngd_dsa_scs_aalh #176
+estimating full linear mixed-effcet model # 57
+get fixed effects and related statistics # 57
+# rsfmri_c_ngd_vta_ngd_smm #76
+# rsfmri_cor_ngd_au_scs_pllh #96
+estimating full linear mixed-effcet model # 117
+get fixed effects and related statistics # 117
+estimating full linear mixed-effcet model # 137
+get fixed effects and related statistics # 137
+# rsfmri_c_ngd_rspltp_ngd_rspltp #36
+# rsfmri_c_ngd_sa_ngd_ad #56
+# rsfmri_cor_ngd_cerc_scs_bs #116
+# rsfmri_cor_ngd_copa_scs_hplh #136
+estimating full linear mixed-effcet model # 156
+get fixed effects and related statistics # 156
+estimating full linear mixed-effcet model # 176
+get fixed effects and related statistics # 176
+estimating full linear mixed-effcet model # 76
+get fixed effects and related statistics # 76
+estimating full linear mixed-effcet model # 96
+get fixed effects and related statistics # 96
+# rsfmri_cor_ngd_df_scs_hplh #155
+# rsfmri_cor_ngd_dsa_scs_aglh #175
+estimating full linear mixed-effcet model # 36
+get fixed effects and related statistics # 36
+estimating full linear mixed-effcet model # 56
+get fixed effects and related statistics # 56
+# rsfmri_cor_ngd_au_scs_ptlh #95
+estimating full linear mixed-effcet model # 116
+get fixed effects and related statistics # 116
+estimating full linear mixed-effcet model # 136
+get fixed effects and related statistics # 136
+# rsfmri_c_ngd_rspltp_ngd_n #35
+# rsfmri_c_ngd_smm_ngd_smm #55
+# rsfmri_c_ngd_vta_ngd_smh #75
+# rsfmri_cor_ngd_cerc_scs_pllh #115
+# rsfmri_cor_ngd_copa_scs_bs #135
+estimating full linear mixed-effcet model # 155
+get fixed effects and related statistics # 155
+estimating full linear mixed-effcet model # 95
+get fixed effects and related statistics # 95
+# rsfmri_cor_ngd_df_scs_bs #154
+estimating full linear mixed-effcet model # 175
+get fixed effects and related statistics # 175
+# rsfmri_cor_ngd_dsa_scs_hplh #174
+estimating full linear mixed-effcet model # 35
+get fixed effects and related statistics # 35
+estimating full linear mixed-effcet model # 55
+get fixed effects and related statistics # 55
+estimating full linear mixed-effcet model # 75
+get fixed effects and related statistics # 75
+# rsfmri_cor_ngd_au_scs_cdelh #94
+estimating full linear mixed-effcet model # 115
+get fixed effects and related statistics # 115
+estimating full linear mixed-effcet model # 135
+get fixed effects and related statistics # 135
+# rsfmri_c_ngd_rspltp_ngd_fo #34
+# rsfmri_c_ngd_smm_ngd_smh #54
+# rsfmri_c_ngd_vta_ngd_rspltp #74
+# rsfmri_cor_ngd_cerc_scs_ptlh #114
+# rsfmri_cor_ngd_copa_scs_pllh #134
+estimating full linear mixed-effcet model # 154
+get fixed effects and related statistics # 154
+estimating full linear mixed-effcet model # 94
+get fixed effects and related statistics # 94
+# rsfmri_cor_ngd_df_scs_pllh #153
+estimating full linear mixed-effcet model # 174
+get fixed effects and related statistics # 174
+estimating full linear mixed-effcet model # 134
+get fixed effects and related statistics # 134
+# rsfmri_cor_ngd_dsa_scs_bs #173
+estimating full linear mixed-effcet model # 34
+get fixed effects and related statistics # 34
+estimating full linear mixed-effcet model # 54
+get fixed effects and related statistics # 54
+estimating full linear mixed-effcet model # 74
+get fixed effects and related statistics # 74
+# rsfmri_cor_ngd_au_scs_thplh #93
+estimating full linear mixed-effcet model # 114
+get fixed effects and related statistics # 114
+# rsfmri_c_ngd_rspltp_ngd_dla #33
+# rsfmri_c_ngd_smm_ngd_rspltp #53
+# rsfmri_c_ngd_vta_ngd_n #73
+# rsfmri_cor_ngd_cerc_scs_cdelh #113
+# rsfmri_cor_ngd_copa_scs_ptlh #133
+estimating full linear mixed-effcet model # 93
+get fixed effects and related statistics # 93
+estimating full linear mixed-effcet model # 153
+get fixed effects and related statistics # 153
+# rsfmri_cor_ngd_au_scs_crcxlh #92
+# rsfmri_cor_ngd_df_scs_ptlh #152
+estimating full linear mixed-effcet model # 173
+get fixed effects and related statistics # 173
+estimating full linear mixed-effcet model # 53
+get fixed effects and related statistics # 53
+estimating full linear mixed-effcet model # 73
+get fixed effects and related statistics # 73
+estimating full linear mixed-effcet model # 133
+get fixed effects and related statistics # 133
+# rsfmri_cor_ngd_dsa_scs_pllh #172
+estimating full linear mixed-effcet model # 33
+get fixed effects and related statistics # 33
+# rsfmri_c_ngd_vta_ngd_fo #72
+estimating full linear mixed-effcet model # 113
+get fixed effects and related statistics # 113
+# rsfmri_cor_ngd_copa_scs_cdelh #132
+# rsfmri_c_ngd_rspltp_ngd_dt #32
+# rsfmri_c_ngd_smm_ngd_n #52
+# rsfmri_cor_ngd_cerc_scs_thplh #112
+estimating full linear mixed-effcet model # 152
+get fixed effects and related statistics # 152
+estimating full linear mixed-effcet model # 92
+get fixed effects and related statistics # 92
+# rsfmri_cor_ngd_df_scs_cdelh #151
+estimating full linear mixed-effcet model # 172
+get fixed effects and related statistics # 172
+estimating full linear mixed-effcet model # 72
+get fixed effects and related statistics # 72
+# rsfmri_c_ngd_vs_ngd_vs #91
+estimating full linear mixed-effcet model # 132
+get fixed effects and related statistics # 132
+# rsfmri_cor_ngd_dsa_scs_ptlh #171
+estimating full linear mixed-effcet model # 32
+get fixed effects and related statistics # 32
+estimating full linear mixed-effcet model # 52
+get fixed effects and related statistics # 52
+# rsfmri_c_ngd_vta_ngd_dla #71
+estimating full linear mixed-effcet model # 112
+get fixed effects and related statistics # 112
+# rsfmri_cor_ngd_copa_scs_thplh #131
+# rsfmri_c_ngd_rspltp_ngd_ca #31
+# rsfmri_c_ngd_smm_ngd_fo #51
+# rsfmri_cor_ngd_cerc_scs_crcxlh #111
+estimating full linear mixed-effcet model # 91
+get fixed effects and related statistics # 91
+estimating full linear mixed-effcet model # 151
+get fixed effects and related statistics # 151
+# rsfmri_c_ngd_vs_ngd_vta #90
+# rsfmri_cor_ngd_df_scs_thplh #150
+estimating full linear mixed-effcet model # 171
+get fixed effects and related statistics # 171
+estimating full linear mixed-effcet model # 31
+get fixed effects and related statistics # 31
+estimating full linear mixed-effcet model # 71
+get fixed effects and related statistics # 71
+estimating full linear mixed-effcet model # 111
+get fixed effects and related statistics # 111
+estimating full linear mixed-effcet model # 131
+get fixed effects and related statistics # 131
+# rsfmri_cor_ngd_dsa_scs_cdelh #170
+# rsfmri_c_ngd_rspltp_ngd_cgc #30
+estimating full linear mixed-effcet model # 51
+get fixed effects and related statistics # 51
+# rsfmri_cor_ngd_au_scs_vtdcrh #110
+# rsfmri_cor_ngd_copa_scs_crcxlh #130
+# rsfmri_c_ngd_smm_ngd_dla #50
+# rsfmri_c_ngd_vta_ngd_dt #70
+estimating full linear mixed-effcet model # 90
+get fixed effects and related statistics # 90
+estimating full linear mixed-effcet model # 150
+get fixed effects and related statistics # 150
+estimating full linear mixed-effcet model # 170
+get fixed effects and related statistics # 170
+# rsfmri_c_ngd_vs_ngd_sa #89
+# rsfmri_cor_ngd_df_scs_crcxlh #149
+estimating full linear mixed-effcet model # 50
+get fixed effects and related statistics # 50
+estimating full linear mixed-effcet model # 70
+get fixed effects and related statistics # 70
+estimating full linear mixed-effcet model # 110
+get fixed effects and related statistics # 110
+estimating full linear mixed-effcet model # 130
+get fixed effects and related statistics # 130
+# rsfmri_cor_ngd_dsa_scs_thplh #169
+estimating full linear mixed-effcet model # 30
+get fixed effects and related statistics # 30
+# rsfmri_c_ngd_vta_ngd_ca #69
+# rsfmri_cor_ngd_au_scs_aarh #109
+# rsfmri_cor_ngd_cerc_scs_vtdcrh #129
+# rsfmri_c_ngd_rspltp_ngd_ad #29
+# rsfmri_c_ngd_smm_ngd_dt #49
+estimating full linear mixed-effcet model # 89
+get fixed effects and related statistics # 89
+estimating full linear mixed-effcet model # 149
+get fixed effects and related statistics # 149
+estimating full linear mixed-effcet model # 169
+get fixed effects and related statistics # 169
+# rsfmri_c_ngd_vs_ngd_smm #88
+# rsfmri_cor_ngd_copa_scs_vtdcrh #148
+# rsfmri_cor_ngd_dsa_scs_crcxlh #168
+estimating full linear mixed-effcet model # 69
+get fixed effects and related statistics # 69
+estimating full linear mixed-effcet model # 109
+get fixed effects and related statistics # 109
+estimating full linear mixed-effcet model # 129
+get fixed effects and related statistics # 129
+estimating full linear mixed-effcet model # 29
+get fixed effects and related statistics # 29
+estimating full linear mixed-effcet model # 49
+get fixed effects and related statistics # 49
+# rsfmri_c_ngd_vta_ngd_cgc #68
+# rsfmri_cor_ngd_au_scs_agrh #108
+# rsfmri_cor_ngd_cerc_scs_aarh #128
+# rsfmri_c_ngd_n_ngd_n #28
+# rsfmri_c_ngd_smm_ngd_ca #48
+estimating full linear mixed-effcet model # 88
+get fixed effects and related statistics # 88
+estimating full linear mixed-effcet model # 168
+get fixed effects and related statistics # 168
+# rsfmri_c_ngd_vs_ngd_smh #87
+estimating full linear mixed-effcet model # 148
+get fixed effects and related statistics # 148
+# rsfmri_cor_ngd_df_scs_vtdcrh #167
+# rsfmri_cor_ngd_copa_scs_aarh #147
+estimating full linear mixed-effcet model # 48
+get fixed effects and related statistics # 48
+estimating full linear mixed-effcet model # 68
+get fixed effects and related statistics # 68
+estimating full linear mixed-effcet model # 108
+get fixed effects and related statistics # 108
+estimating full linear mixed-effcet model # 128
+get fixed effects and related statistics # 128
+estimating full linear mixed-effcet model # 28
+get fixed effects and related statistics # 28
+# rsfmri_c_ngd_smm_ngd_cgc #47
+# rsfmri_c_ngd_vta_ngd_ad #67
+# rsfmri_cor_ngd_au_scs_hprh #107
+# rsfmri_cor_ngd_cerc_scs_agrh #127
+# rsfmri_c_ngd_n_ngd_fo #27
+estimating full linear mixed-effcet model # 87
+get fixed effects and related statistics # 87
+estimating full linear mixed-effcet model # 147
+get fixed effects and related statistics # 147
+estimating full linear mixed-effcet model # 167
+get fixed effects and related statistics # 167
+# rsfmri_c_ngd_vs_ngd_rspltp #86
+# rsfmri_cor_ngd_df_scs_aarh #166
+# rsfmri_cor_ngd_copa_scs_agrh #146
+estimating full linear mixed-effcet model # 47
+get fixed effects and related statistics # 47
+estimating full linear mixed-effcet model # 67
+get fixed effects and related statistics # 67
+estimating full linear mixed-effcet model # 107
+get fixed effects and related statistics # 107
+estimating full linear mixed-effcet model # 127
+get fixed effects and related statistics # 127
+estimating full linear mixed-effcet model # 27
+get fixed effects and related statistics # 27
+# rsfmri_c_ngd_smm_ngd_ad #46
+# rsfmri_c_ngd_sa_ngd_sa #66
+# rsfmri_cor_ngd_au_scs_plrh #106
+# rsfmri_cor_ngd_cerc_scs_hprh #126
+estimating full linear mixed-effcet model # 166
+get fixed effects and related statistics # 166
+# rsfmri_c_ngd_n_ngd_dla #26
+estimating full linear mixed-effcet model # 86
+get fixed effects and related statistics # 86
+estimating full linear mixed-effcet model # 146
+get fixed effects and related statistics # 146
+# rsfmri_cor_ngd_df_scs_agrh #165
+# rsfmri_c_ngd_vs_ngd_n #85
+# rsfmri_cor_ngd_copa_scs_hprh #145
+estimating full linear mixed-effcet model # 26
+get fixed effects and related statistics # 26
+estimating full linear mixed-effcet model # 46
+get fixed effects and related statistics # 46
+estimating full linear mixed-effcet model # 66
+get fixed effects and related statistics # 66
+estimating full linear mixed-effcet model # 106
+get fixed effects and related statistics # 106
+estimating full linear mixed-effcet model # 126
+get fixed effects and related statistics # 126
+# rsfmri_c_ngd_smh_ngd_smh #45
+# rsfmri_c_ngd_sa_ngd_smm #65
+estimating full linear mixed-effcet model # 85
+get fixed effects and related statistics # 85
+# rsfmri_cor_ngd_au_scs_ptrh #105
+# rsfmri_cor_ngd_cerc_scs_plrh #125
+# rsfmri_c_ngd_n_ngd_dt #25
+estimating full linear mixed-effcet model # 145
+get fixed effects and related statistics # 145
+estimating full linear mixed-effcet model # 165
+get fixed effects and related statistics # 165
+estimating full linear mixed-effcet model # 45
+get fixed effects and related statistics # 45
+# rsfmri_cor_ngd_none_scs_aalh #214
+# rsfmri_cor_ngd_rst_scs_vtdclh #234
+# rsfmri_cor_ngd_fopa_scs_aarh #204
+estimating full linear mixed-effcet model # 65
+get fixed effects and related statistics # 65
+estimating full linear mixed-effcet model # 125
+get fixed effects and related statistics # 125
+estimating full linear mixed-effcet model # 25
+get fixed effects and related statistics # 25
+# rsfmri_cor_ngd_none_scs_vtdcrh #224
+estimating full linear mixed-effcet model # 105
+get fixed effects and related statistics # 105
+# rsfmri_cor_ngd_fopa_scs_aglh #194
+estimating full linear mixed-effcet model # 214
+get fixed effects and related statistics # 214
+# rsfmri_cor_ngd_smh_scs_crcxrh #254
+# rsfmri_cor_ngd_smm_scs_thplh #264
+estimating full linear mixed-effcet model # 204
+get fixed effects and related statistics # 204
+# rsfmri_cor_ngd_smh_scs_crcxlh #244
+estimating full linear mixed-effcet model # 234
+get fixed effects and related statistics # 234
+# rsfmri_cor_ngd_fopa_scs_agrh #203
+# rsfmri_cor_ngd_none_scs_aglh #213
+# rsfmri_cor_ngd_rst_scs_aalh #233
+estimating full linear mixed-effcet model # 194
+get fixed effects and related statistics # 194
+estimating full linear mixed-effcet model # 244
+get fixed effects and related statistics # 244
+estimating full linear mixed-effcet model # 224
+get fixed effects and related statistics # 224
+estimating full linear mixed-effcet model # 254
+get fixed effects and related statistics # 254
+estimating full linear mixed-effcet model # 264
+get fixed effects and related statistics # 264
+# rsfmri_cor_ngd_none_scs_aarh #223
+# rsfmri_cor_ngd_fopa_scs_hplh #193
+estimating full linear mixed-effcet model # 213
+get fixed effects and related statistics # 213
+# rsfmri_cor_ngd_smh_scs_vtdclh #253
+# rsfmri_cor_ngd_smm_scs_crcxlh #263
+estimating full linear mixed-effcet model # 203
+get fixed effects and related statistics # 203
+# rsfmri_cor_ngd_rst_scs_vtdcrh #243
+# rsfmri_cor_ngd_none_scs_hplh #212
+estimating full linear mixed-effcet model # 233
+get fixed effects and related statistics # 233
+# rsfmri_cor_ngd_fopa_scs_hprh #202
+# rsfmri_cor_ngd_rst_scs_aglh #232
+estimating full linear mixed-effcet model # 223
+get fixed effects and related statistics # 223
+estimating full linear mixed-effcet model # 193
+get fixed effects and related statistics # 193
+estimating full linear mixed-effcet model # 243
+get fixed effects and related statistics # 243
+# rsfmri_cor_ngd_fopa_scs_bs #192
+estimating full linear mixed-effcet model # 253
+get fixed effects and related statistics # 253
+estimating full linear mixed-effcet model # 263
+get fixed effects and related statistics # 263
+estimating full linear mixed-effcet model # 202
+get fixed effects and related statistics # 202
+# rsfmri_cor_ngd_rst_scs_aarh #242
+# rsfmri_cor_ngd_none_scs_agrh #222
+estimating full linear mixed-effcet model # 212
+get fixed effects and related statistics # 212
+# rsfmri_cor_ngd_smh_scs_aalh #252
+# rsfmri_cor_ngd_smh_scs_vtdcrh #262
+# rsfmri_cor_ngd_fopa_scs_plrh #201
+# rsfmri_cor_ngd_none_scs_bs #211
+estimating full linear mixed-effcet model # 232
+get fixed effects and related statistics # 232
+# rsfmri_cor_ngd_rst_scs_hplh #231
+estimating full linear mixed-effcet model # 222
+get fixed effects and related statistics # 222
+estimating full linear mixed-effcet model # 192
+get fixed effects and related statistics # 192
+estimating full linear mixed-effcet model # 242
+get fixed effects and related statistics # 242
+estimating full linear mixed-effcet model # 252
+get fixed effects and related statistics # 252
+estimating full linear mixed-effcet model # 262
+get fixed effects and related statistics # 262
+estimating full linear mixed-effcet model # 201
+get fixed effects and related statistics # 201
+# rsfmri_cor_ngd_rst_scs_agrh #241
+# rsfmri_cor_ngd_none_scs_hprh #221
+# rsfmri_cor_ngd_fopa_scs_pllh #191
+estimating full linear mixed-effcet model # 211
+get fixed effects and related statistics # 211
+# rsfmri_cor_ngd_smh_scs_aarh #261
+# rsfmri_cor_ngd_fopa_scs_ptrh #200
+# rsfmri_cor_ngd_none_scs_pllh #210
+# rsfmri_cor_ngd_smh_scs_aglh #251
+estimating full linear mixed-effcet model # 231
+get fixed effects and related statistics # 231
+# rsfmri_cor_ngd_rst_scs_bs #230
+estimating full linear mixed-effcet model # 221
+get fixed effects and related statistics # 221
+estimating full linear mixed-effcet model # 191
+get fixed effects and related statistics # 191
+estimating full linear mixed-effcet model # 261
+get fixed effects and related statistics # 261
+estimating full linear mixed-effcet model # 200
+get fixed effects and related statistics # 200
+estimating full linear mixed-effcet model # 241
+get fixed effects and related statistics # 241
+# rsfmri_cor_ngd_none_scs_plrh #220
+# rsfmri_cor_ngd_fopa_scs_ptlh #190
+estimating full linear mixed-effcet model # 210
+get fixed effects and related statistics # 210
+estimating full linear mixed-effcet model # 251
+get fixed effects and related statistics # 251
+# rsfmri_cor_ngd_fopa_scs_cderh #199
+# rsfmri_cor_ngd_none_scs_ptlh #209
+# rsfmri_cor_ngd_smh_scs_hplh #250
+# rsfmri_cor_ngd_smh_scs_agrh #260
+estimating full linear mixed-effcet model # 230
+get fixed effects and related statistics # 230
+# rsfmri_cor_ngd_rst_scs_hprh #240
+# rsfmri_cor_ngd_rst_scs_pllh #229
+estimating full linear mixed-effcet model # 220
+get fixed effects and related statistics # 220
+estimating full linear mixed-effcet model # 190
+get fixed effects and related statistics # 190
+estimating full linear mixed-effcet model # 199
+get fixed effects and related statistics # 199
+# rsfmri_cor_ngd_none_scs_ptrh #219
+estimating full linear mixed-effcet model # 209
+get fixed effects and related statistics # 209
+estimating full linear mixed-effcet model # 260
+get fixed effects and related statistics # 260
+# rsfmri_cor_ngd_fopa_scs_thprh #198
+estimating full linear mixed-effcet model # 240
+get fixed effects and related statistics # 240
+# rsfmri_cor_ngd_fopa_scs_cdelh #189
+estimating full linear mixed-effcet model # 250
+get fixed effects and related statistics # 250
+# rsfmri_cor_ngd_smh_scs_hprh #259
+estimating full linear mixed-effcet model # 229
+get fixed effects and related statistics # 229
+# rsfmri_cor_ngd_rst_scs_plrh #239
+# rsfmri_cor_ngd_none_scs_cdelh #208
+# rsfmri_cor_ngd_smh_scs_bs #249
+# rsfmri_cor_ngd_rst_scs_ptlh #228
+estimating full linear mixed-effcet model # 189
+get fixed effects and related statistics # 189
+estimating full linear mixed-effcet model # 198
+get fixed effects and related statistics # 198
+estimating full linear mixed-effcet model # 219
+get fixed effects and related statistics # 219
+# rsfmri_cor_ngd_fopa_scs_thplh #188
+estimating full linear mixed-effcet model # 208
+get fixed effects and related statistics # 208
+# rsfmri_cor_ngd_fopa_scs_crcxrh #197
+# rsfmri_cor_ngd_none_scs_cderh #218
+# rsfmri_cor_ngd_none_scs_thplh #207
+estimating full linear mixed-effcet model # 249
+get fixed effects and related statistics # 249
+estimating full linear mixed-effcet model # 259
+get fixed effects and related statistics # 259
+estimating full linear mixed-effcet model # 228
+get fixed effects and related statistics # 228
+estimating full linear mixed-effcet model # 239
+get fixed effects and related statistics # 239
+# rsfmri_cor_ngd_smh_scs_pllh #248
+# rsfmri_cor_ngd_smh_scs_plrh #258
+# rsfmri_cor_ngd_rst_scs_ptrh #238
+# rsfmri_cor_ngd_rst_scs_cdelh #227
+estimating full linear mixed-effcet model # 197
+get fixed effects and related statistics # 197
+estimating full linear mixed-effcet model # 218
+get fixed effects and related statistics # 218
+estimating full linear mixed-effcet model # 188
+get fixed effects and related statistics # 188
+estimating full linear mixed-effcet model # 207
+get fixed effects and related statistics # 207
+# rsfmri_cor_ngd_fopa_scs_vtdclh #196
+# rsfmri_cor_ngd_none_scs_thprh #217
+# rsfmri_cor_ngd_fopa_scs_crcxlh #187
+# rsfmri_cor_ngd_none_scs_crcxlh #206
+estimating full linear mixed-effcet model # 248
+get fixed effects and related statistics # 248
+estimating full linear mixed-effcet model # 258
+get fixed effects and related statistics # 258
+estimating full linear mixed-effcet model # 238
+get fixed effects and related statistics # 238
+# rsfmri_cor_ngd_smh_scs_ptrh #257
+estimating full linear mixed-effcet model # 227
+get fixed effects and related statistics # 227
+# rsfmri_cor_ngd_rst_scs_cderh #237
+# rsfmri_cor_ngd_smh_scs_ptlh #247
+# rsfmri_cor_ngd_rst_scs_thplh #226
+estimating full linear mixed-effcet model # 196
+get fixed effects and related statistics # 196
+estimating full linear mixed-effcet model # 187
+get fixed effects and related statistics # 187
+estimating full linear mixed-effcet model # 206
+get fixed effects and related statistics # 206
+# rsfmri_cor_ngd_fopa_scs_aalh #195
+estimating full linear mixed-effcet model # 217
+get fixed effects and related statistics # 217
+# rsfmri_cor_ngd_dsa_scs_vtdcrh #186
+# rsfmri_cor_ngd_fopa_scs_vtdcrh #205
+estimating full linear mixed-effcet model # 257
+get fixed effects and related statistics # 257
+estimating full linear mixed-effcet model # 237
+get fixed effects and related statistics # 237
+# rsfmri_cor_ngd_none_scs_crcxrh #216
+estimating full linear mixed-effcet model # 247
+get fixed effects and related statistics # 247
+estimating full linear mixed-effcet model # 226
+get fixed effects and related statistics # 226
+# rsfmri_cor_ngd_smh_scs_cdelh #246
+# rsfmri_cor_ngd_smh_scs_cderh #256
+# rsfmri_cor_ngd_rst_scs_crcxlh #225
+# rsfmri_cor_ngd_rst_scs_thprh #236
+estimating full linear mixed-effcet model # 195
+get fixed effects and related statistics # 195
+estimating full linear mixed-effcet model # 186
+get fixed effects and related statistics # 186
+estimating full linear mixed-effcet model # 205
+get fixed effects and related statistics # 205
+# rsfmri_cor_ngd_smm_scs_thprh #274
+estimating full linear mixed-effcet model # 216
+get fixed effects and related statistics # 216
+# rsfmri_cor_ngd_none_scs_vtdclh #215
+# rsfmri_cor_ngd_dsa_scs_aarh #185
+# rsfmri_cor_ngd_smm_scs_hplh #269
+estimating full linear mixed-effcet model # 246
+get fixed effects and related statistics # 246
+estimating full linear mixed-effcet model # 256
+get fixed effects and related statistics # 256
+estimating full linear mixed-effcet model # 225
+get fixed effects and related statistics # 225
+estimating full linear mixed-effcet model # 236
+get fixed effects and related statistics # 236
+# rsfmri_cor_ngd_smh_scs_thplh #245
+# rsfmri_cor_ngd_smh_scs_thprh #255
+# rsfmri_cor_ngd_rst_scs_crcxrh #235
+# rsfmri_cor_ngd_smm_scs_agrh #279
+estimating full linear mixed-effcet model # 274
+get fixed effects and related statistics # 274
+estimating full linear mixed-effcet model # 185
+get fixed effects and related statistics # 185
+estimating full linear mixed-effcet model # 269
+get fixed effects and related statistics # 269
+# rsfmri_cor_ngd_smm_scs_crcxrh #273
+estimating full linear mixed-effcet model # 215
+get fixed effects and related statistics # 215
+# rsfmri_cor_ngd_sa_scs_cderh #294
+# rsfmri_cor_ngd_smm_scs_bs #268
+estimating full linear mixed-effcet model # 245
+get fixed effects and related statistics # 245
+estimating full linear mixed-effcet model # 255
+get fixed effects and related statistics # 255
+estimating full linear mixed-effcet model # 279
+get fixed effects and related statistics # 279
+# rsfmri_cor_ngd_sa_scs_cdelh #284
+estimating full linear mixed-effcet model # 235
+get fixed effects and related statistics # 235
+# rsfmri_cor_ngd_sa_scs_aarh #299
+# rsfmri_cor_ngd_sa_scs_aglh #289
+# rsfmri_cor_ngd_smm_scs_hprh #278
+# rsfmri_cor_ngd_vta_scs_ptlh #304
+estimating full linear mixed-effcet model # 273
+get fixed effects and related statistics # 273
+estimating full linear mixed-effcet model # 294
+get fixed effects and related statistics # 294
+estimating full linear mixed-effcet model # 268
+get fixed effects and related statistics # 268
+estimating full linear mixed-effcet model # 284
+get fixed effects and related statistics # 284
+# rsfmri_cor_ngd_sa_scs_thprh #293
+# rsfmri_cor_ngd_smm_scs_pllh #267
+# rsfmri_cor_ngd_smm_scs_vtdclh #272
+estimating full linear mixed-effcet model # 299
+get fixed effects and related statistics # 299
+estimating full linear mixed-effcet model # 289
+get fixed effects and related statistics # 289
+estimating full linear mixed-effcet model # 278
+get fixed effects and related statistics # 278
+estimating full linear mixed-effcet model # 304
+get fixed effects and related statistics # 304
+# rsfmri_cor_ngd_sa_scs_thplh #283
+# rsfmri_cor_ngd_sa_scs_agrh #298
+# rsfmri_cor_ngd_sa_scs_hplh #288
+# rsfmri_cor_ngd_smm_scs_plrh #277
+# rsfmri_cor_ngd_vta_scs_cdelh #303
+estimating full linear mixed-effcet model # 272
+get fixed effects and related statistics # 272
+estimating full linear mixed-effcet model # 293
+get fixed effects and related statistics # 293
+estimating full linear mixed-effcet model # 267
+get fixed effects and related statistics # 267
+estimating full linear mixed-effcet model # 283
+get fixed effects and related statistics # 283
+# rsfmri_cor_ngd_sa_scs_crcxrh #292
+# rsfmri_cor_ngd_smm_scs_ptlh #266
+estimating full linear mixed-effcet model # 298
+get fixed effects and related statistics # 298
+estimating full linear mixed-effcet model # 277
+get fixed effects and related statistics # 277
+# rsfmri_cor_ngd_smm_scs_aalh #271
+estimating full linear mixed-effcet model # 303
+get fixed effects and related statistics # 303
+# rsfmri_cor_ngd_sa_scs_crcxlh #282
+estimating full linear mixed-effcet model # 288
+get fixed effects and related statistics # 288
+# rsfmri_cor_ngd_sa_scs_hprh #297
+# rsfmri_cor_ngd_sa_scs_bs #287
+# rsfmri_cor_ngd_smm_scs_ptrh #276
+# rsfmri_cor_ngd_vta_scs_thplh #302
+estimating full linear mixed-effcet model # 271
+get fixed effects and related statistics # 271
+estimating full linear mixed-effcet model # 292
+get fixed effects and related statistics # 292
+estimating full linear mixed-effcet model # 266
+get fixed effects and related statistics # 266
+estimating full linear mixed-effcet model # 282
+get fixed effects and related statistics # 282
+# rsfmri_cor_ngd_sa_scs_vtdclh #291
+# rsfmri_cor_ngd_smm_scs_cdelh #265
+estimating full linear mixed-effcet model # 297
+get fixed effects and related statistics # 297
+estimating full linear mixed-effcet model # 276
+get fixed effects and related statistics # 276
+# rsfmri_cor_ngd_smm_scs_aglh #270
+estimating full linear mixed-effcet model # 302
+get fixed effects and related statistics # 302
+# rsfmri_cor_ngd_smm_scs_vtdcrh #281
+# rsfmri_cor_ngd_sa_scs_plrh #296
+estimating full linear mixed-effcet model # 287
+get fixed effects and related statistics # 287
+# rsfmri_cor_ngd_smm_scs_cderh #275
+# rsfmri_cor_ngd_vta_scs_crcxlh #301
+# rsfmri_cor_ngd_sa_scs_pllh #286
+estimating full linear mixed-effcet model # 291
+get fixed effects and related statistics # 291
+estimating full linear mixed-effcet model # 265
+get fixed effects and related statistics # 265
+estimating full linear mixed-effcet model # 275
+get fixed effects and related statistics # 275
+estimating full linear mixed-effcet model # 270
+get fixed effects and related statistics # 270
+# rsfmri_cor_ngd_sa_scs_aalh #290
+estimating full linear mixed-effcet model # 281
+get fixed effects and related statistics # 281
+# rsfmri_cor_ngd_vta_scs_vtdclh #310
+estimating full linear mixed-effcet model # 296
+get fixed effects and related statistics # 296
+# rsfmri_cor_ngd_vta_scs_hplh #307
+estimating full linear mixed-effcet model # 301
+get fixed effects and related statistics # 301
+# rsfmri_cor_ngd_smm_scs_aarh #280
+# rsfmri_cor_ngd_sa_scs_ptrh #295
+estimating full linear mixed-effcet model # 286
+get fixed effects and related statistics # 286
+# rsfmri_cor_ngd_vta_scs_cderh #313
+# rsfmri_cor_ngd_sa_scs_vtdcrh #300
+# rsfmri_cor_ngd_sa_scs_ptlh #285
+estimating full linear mixed-effcet model # 307
+get fixed effects and related statistics # 307
+estimating full linear mixed-effcet model # 290
+get fixed effects and related statistics # 290
+estimating full linear mixed-effcet model # 310
+get fixed effects and related statistics # 310
+estimating full linear mixed-effcet model # 313
+get fixed effects and related statistics # 313
+estimating full linear mixed-effcet model # 300
+get fixed effects and related statistics # 300
+estimating full linear mixed-effcet model # 280
+get fixed effects and related statistics # 280
+# rsfmri_cor_ngd_vta_scs_hprh #316
+# rsfmri_cor_ngd_vta_scs_aalh #309
+estimating full linear mixed-effcet model # 295
+get fixed effects and related statistics # 295
+estimating full linear mixed-effcet model # 285
+get fixed effects and related statistics # 285
+# rsfmri_cor_ngd_vta_scs_thprh #312
+# rsfmri_cor_ngd_vta_scs_bs #306
+# rsfmri_cor_ngd_vta_scs_vtdcrh #319
+# rsfmri_cor_ngd_vs_scs_aalh #328
+# rsfmri_cor_ngd_vs_scs_bs #325
+# rsfmri_cor_ngd_vs_scs_cdelh #322
+estimating full linear mixed-effcet model # 306
+get fixed effects and related statistics # 306
+estimating full linear mixed-effcet model # 316
+get fixed effects and related statistics # 316
+estimating full linear mixed-effcet model # 309
+get fixed effects and related statistics # 309
+estimating full linear mixed-effcet model # 319
+get fixed effects and related statistics # 319
+estimating full linear mixed-effcet model # 312
+get fixed effects and related statistics # 312
+# rsfmri_cor_ngd_vta_scs_pllh #305
+# rsfmri_cor_ngd_vta_scs_plrh #315
+# rsfmri_cor_ngd_vta_scs_aglh #308
+estimating full linear mixed-effcet model # 325
+get fixed effects and related statistics # 325
+estimating full linear mixed-effcet model # 322
+get fixed effects and related statistics # 322
+# rsfmri_cor_ngd_vta_scs_crcxrh #311
+estimating full linear mixed-effcet model # 328
+get fixed effects and related statistics # 328
+# rsfmri_cor_ngd_vta_scs_aarh #318
+# rsfmri_cor_ngd_vs_scs_pllh #324
+# rsfmri_cor_ngd_vs_scs_thplh #321
+# rsfmri_cor_ngd_vs_scs_aglh #327
+estimating full linear mixed-effcet model # 305
+get fixed effects and related statistics # 305
+estimating full linear mixed-effcet model # 315
+get fixed effects and related statistics # 315
+estimating full linear mixed-effcet model # 308
+get fixed effects and related statistics # 308
+estimating full linear mixed-effcet model # 311
+get fixed effects and related statistics # 311
+# rsfmri_cor_ngd_vs_scs_vtdclh #329
+estimating full linear mixed-effcet model # 327
+get fixed effects and related statistics # 327
+estimating full linear mixed-effcet model # 318
+get fixed effects and related statistics # 318
+# rsfmri_cor_ngd_vta_scs_agrh #317
+# rsfmri_cor_ngd_vta_scs_ptrh #314
+# rsfmri_cor_ngd_vs_scs_crcxrh #330
+estimating full linear mixed-effcet model # 324
+get fixed effects and related statistics # 324
+# rsfmri_cor_ngd_vs_scs_ptlh #323
+estimating full linear mixed-effcet model # 321
+get fixed effects and related statistics # 321
+# rsfmri_cor_ngd_vs_scs_thprh #331
+# rsfmri_cor_ngd_vs_scs_hplh #326
+# rsfmri_cor_ngd_vs_scs_crcxlh #320
+estimating full linear mixed-effcet model # 314
+get fixed effects and related statistics # 314
+estimating full linear mixed-effcet model # 329
+get fixed effects and related statistics # 329
+estimating full linear mixed-effcet model # 330
+get fixed effects and related statistics # 330
+estimating full linear mixed-effcet model # 331
+get fixed effects and related statistics # 331
+estimating full linear mixed-effcet model # 317
+get fixed effects and related statistics # 317
+# rsfmri_cor_ngd_vs_scs_cderh #332
+estimating full linear mixed-effcet model # 323
+get fixed effects and related statistics # 323
+estimating full linear mixed-effcet model # 326
+get fixed effects and related statistics # 326
+estimating full linear mixed-effcet model # 320
+get fixed effects and related statistics # 320
+# rsfmri_cor_ngd_vs_scs_ptrh #333
+estimating full linear mixed-effcet model # 333
+get fixed effects and related statistics # 333
+estimating full linear mixed-effcet model # 332
+get fixed effects and related statistics # 332
+# rsfmri_cor_ngd_vs_scs_vtdcrh #338
+estimating full linear mixed-effcet model # 338
+get fixed effects and related statistics # 338
+# rsfmri_cor_ngd_vs_scs_plrh #334
+estimating full linear mixed-effcet model # 334
+get fixed effects and related statistics # 334
+# rsfmri_cor_ngd_vs_scs_agrh #336
+estimating full linear mixed-effcet model # 336
+get fixed effects and related statistics # 336
+# rsfmri_cor_ngd_vs_scs_aarh #337
+estimating full linear mixed-effcet model # 337
+get fixed effects and related statistics # 337
+# rsfmri_cor_ngd_vs_scs_hprh #335
+estimating full linear mixed-effcet model # 335
+get fixed effects and related statistics # 335
+Unadjusted Model LME formula:Single_Y~Idx+(1|site_id_l)+(1|site_id_l:FamilyID)
+# rsfmri_c_ngd_cgc_ngd_cgc #3
+estimating non-adjusted linear mixed-effcet model # 3
+# rsfmri_c_ngd_ca_ngd_ca #6
+# rsfmri_c_ngd_dt_ngd_ca #9
+# rsfmri_c_ngd_dla_ngd_cgc #12
+# rsfmri_c_ngd_dla_ngd_dla #15
+# rsfmri_c_ngd_fo_ngd_fo #21
+# rsfmri_c_ngd_n_ngd_ca #24
+# rsfmri_c_ngd_cgc_ngd_ad #2
+estimating non-adjusted linear mixed-effcet model # 6
+# rsfmri_c_ngd_ca_ngd_cgc #5
+estimating non-adjusted linear mixed-effcet model # 9
+# rsfmri_c_ngd_dt_ngd_cgc #8
+estimating non-adjusted linear mixed-effcet model # 12
+# rsfmri_c_ngd_dla_ngd_ad #11
+estimating non-adjusted linear mixed-effcet model # 15
+# rsfmri_c_ngd_dla_ngd_dt #14
+# rsfmri_c_ngd_fo_ngd_ca #18
+estimating non-adjusted linear mixed-effcet model # 18
+# rsfmri_c_ngd_fo_ngd_cgc #17
+estimating non-adjusted linear mixed-effcet model # 21
+# rsfmri_c_ngd_fo_ngd_dla #20
+estimating non-adjusted linear mixed-effcet model # 24
+# rsfmri_c_ngd_n_ngd_cgc #23
+estimating non-adjusted linear mixed-effcet model # 2
+# rsfmri_c_ngd_ad_ngd_ad #1
+estimating non-adjusted linear mixed-effcet model # 5
+# rsfmri_c_ngd_ca_ngd_ad #4
+estimating non-adjusted linear mixed-effcet model # 8
+# rsfmri_c_ngd_dt_ngd_ad #7
+estimating non-adjusted linear mixed-effcet model # 11
+# rsfmri_c_ngd_dt_ngd_dt #10
+estimating non-adjusted linear mixed-effcet model # 14
+# rsfmri_c_ngd_dla_ngd_ca #13
+estimating non-adjusted linear mixed-effcet model # 20
+# rsfmri_c_ngd_fo_ngd_dt #19
+estimating non-adjusted linear mixed-effcet model # 23
+# rsfmri_c_ngd_n_ngd_ad #22
+estimating non-adjusted linear mixed-effcet model # 17
+# rsfmri_c_ngd_fo_ngd_ad #16
+estimating non-adjusted linear mixed-effcet model # 1
+estimating non-adjusted linear mixed-effcet model # 4
+estimating non-adjusted linear mixed-effcet model # 7
+estimating non-adjusted linear mixed-effcet model # 10
+estimating non-adjusted linear mixed-effcet model # 13
+estimating non-adjusted linear mixed-effcet model # 16
+estimating non-adjusted linear mixed-effcet model # 19
+estimating non-adjusted linear mixed-effcet model # 22
+# rsfmri_c_ngd_smh_ngd_rspltp #44
+estimating non-adjusted linear mixed-effcet model # 44
+# rsfmri_c_ngd_smh_ngd_n #43
+# rsfmri_c_ngd_sa_ngd_smh #64
+estimating non-adjusted linear mixed-effcet model # 64
+# rsfmri_c_ngd_sa_ngd_rspltp #63
+# rsfmri_c_ngd_vs_ngd_fo #84
+estimating non-adjusted linear mixed-effcet model # 84
+# rsfmri_c_ngd_vs_ngd_dla #83
+# rsfmri_cor_ngd_cerc_scs_ptrh #124
+estimating non-adjusted linear mixed-effcet model # 124
+# rsfmri_cor_ngd_cerc_scs_cderh #123
+# rsfmri_cor_ngd_df_scs_hprh #164
+estimating non-adjusted linear mixed-effcet model # 164
+# rsfmri_cor_ngd_df_scs_plrh #163
+# rsfmri_cor_ngd_au_scs_cderh #104
+estimating non-adjusted linear mixed-effcet model # 104
+# rsfmri_cor_ngd_au_scs_thprh #103
+# rsfmri_cor_ngd_copa_scs_plrh #144
+estimating non-adjusted linear mixed-effcet model # 144
+# rsfmri_cor_ngd_copa_scs_ptrh #143
+# rsfmri_cor_ngd_dsa_scs_agrh #184
+estimating non-adjusted linear mixed-effcet model # 184
+# rsfmri_cor_ngd_dsa_scs_hprh #183
+estimating non-adjusted linear mixed-effcet model # 43
+# rsfmri_c_ngd_smh_ngd_fo #42
+estimating non-adjusted linear mixed-effcet model # 123
+# rsfmri_cor_ngd_cerc_scs_thprh #122
+estimating non-adjusted linear mixed-effcet model # 63
+# rsfmri_c_ngd_sa_ngd_n #62
+estimating non-adjusted linear mixed-effcet model # 83
+# rsfmri_c_ngd_vs_ngd_dt #82
+estimating non-adjusted linear mixed-effcet model # 103
+# rsfmri_cor_ngd_au_scs_crcxrh #102
+estimating non-adjusted linear mixed-effcet model # 143
+# rsfmri_cor_ngd_copa_scs_cderh #142
+estimating non-adjusted linear mixed-effcet model # 163
+# rsfmri_cor_ngd_df_scs_ptrh #162
+estimating non-adjusted linear mixed-effcet model # 183
+# rsfmri_cor_ngd_dsa_scs_plrh #182
+estimating non-adjusted linear mixed-effcet model # 42
+# rsfmri_c_ngd_smh_ngd_dla #41
+estimating non-adjusted linear mixed-effcet model # 62
+# rsfmri_c_ngd_sa_ngd_fo #61
+estimating non-adjusted linear mixed-effcet model # 82
+# rsfmri_c_ngd_vs_ngd_ca #81
+estimating non-adjusted linear mixed-effcet model # 102
+# rsfmri_cor_ngd_au_scs_vtdclh #101
+estimating non-adjusted linear mixed-effcet model # 122
+# rsfmri_cor_ngd_cerc_scs_crcxrh #121
+estimating non-adjusted linear mixed-effcet model # 162
+# rsfmri_cor_ngd_df_scs_cderh #161
+estimating non-adjusted linear mixed-effcet model # 182
+# rsfmri_cor_ngd_dsa_scs_ptrh #181
+estimating non-adjusted linear mixed-effcet model # 142
+# rsfmri_cor_ngd_copa_scs_thprh #141
+estimating non-adjusted linear mixed-effcet model # 41
+# rsfmri_c_ngd_smh_ngd_dt #40
+estimating non-adjusted linear mixed-effcet model # 161
+# rsfmri_cor_ngd_df_scs_thprh #160
+estimating non-adjusted linear mixed-effcet model # 61
+# rsfmri_c_ngd_sa_ngd_dla #60
+estimating non-adjusted linear mixed-effcet model # 81
+# rsfmri_c_ngd_vs_ngd_cgc #80
+estimating non-adjusted linear mixed-effcet model # 101
+# rsfmri_cor_ngd_au_scs_aalh #100
+estimating non-adjusted linear mixed-effcet model # 121
+# rsfmri_cor_ngd_cerc_scs_vtdclh #120
+estimating non-adjusted linear mixed-effcet model # 141
+# rsfmri_cor_ngd_copa_scs_crcxrh #140
+estimating non-adjusted linear mixed-effcet model # 181
+# rsfmri_cor_ngd_dsa_scs_cderh #180
+estimating non-adjusted linear mixed-effcet model # 40
+# rsfmri_c_ngd_smh_ngd_ca #39
+estimating non-adjusted linear mixed-effcet model # 160
+# rsfmri_cor_ngd_df_scs_crcxrh #159
+estimating non-adjusted linear mixed-effcet model # 60
+# rsfmri_c_ngd_sa_ngd_dt #59
+estimating non-adjusted linear mixed-effcet model # 80
+# rsfmri_c_ngd_vs_ngd_ad #79
+estimating non-adjusted linear mixed-effcet model # 100
+# rsfmri_cor_ngd_au_scs_aglh #99
+estimating non-adjusted linear mixed-effcet model # 120
+# rsfmri_cor_ngd_cerc_scs_aalh #119
+estimating non-adjusted linear mixed-effcet model # 140
+# rsfmri_cor_ngd_copa_scs_vtdclh #139
+estimating non-adjusted linear mixed-effcet model # 180
+# rsfmri_cor_ngd_dsa_scs_thprh #179
+estimating non-adjusted linear mixed-effcet model # 39
+# rsfmri_c_ngd_smh_ngd_cgc #38
+estimating non-adjusted linear mixed-effcet model # 79
+# rsfmri_c_ngd_vta_ngd_vta #78
+estimating non-adjusted linear mixed-effcet model # 99
+# rsfmri_cor_ngd_au_scs_hplh #98
+estimating non-adjusted linear mixed-effcet model # 119
+# rsfmri_cor_ngd_cerc_scs_aglh #118
+estimating non-adjusted linear mixed-effcet model # 139
+# rsfmri_cor_ngd_copa_scs_aalh #138
+estimating non-adjusted linear mixed-effcet model # 159
+# rsfmri_cor_ngd_df_scs_vtdclh #158
+estimating non-adjusted linear mixed-effcet model # 179
+# rsfmri_cor_ngd_dsa_scs_crcxrh #178
+estimating non-adjusted linear mixed-effcet model # 59
+# rsfmri_c_ngd_sa_ngd_ca #58
+estimating non-adjusted linear mixed-effcet model # 38
+# rsfmri_c_ngd_smh_ngd_ad #37
+estimating non-adjusted linear mixed-effcet model # 78
+# rsfmri_c_ngd_vta_ngd_sa #77
+estimating non-adjusted linear mixed-effcet model # 98
+# rsfmri_cor_ngd_au_scs_bs #97
+estimating non-adjusted linear mixed-effcet model # 118
+# rsfmri_cor_ngd_cerc_scs_hplh #117
+estimating non-adjusted linear mixed-effcet model # 138
+# rsfmri_cor_ngd_copa_scs_aglh #137
+estimating non-adjusted linear mixed-effcet model # 158
+# rsfmri_cor_ngd_df_scs_aalh #157
+estimating non-adjusted linear mixed-effcet model # 58
+# rsfmri_c_ngd_sa_ngd_cgc #57
+estimating non-adjusted linear mixed-effcet model # 178
+# rsfmri_cor_ngd_dsa_scs_vtdclh #177
+estimating non-adjusted linear mixed-effcet model # 37
+# rsfmri_c_ngd_rspltp_ngd_rspltp #36
+estimating non-adjusted linear mixed-effcet model # 77
+# rsfmri_c_ngd_vta_ngd_smm #76
+estimating non-adjusted linear mixed-effcet model # 97
+# rsfmri_cor_ngd_au_scs_pllh #96
+estimating non-adjusted linear mixed-effcet model # 57
+# rsfmri_c_ngd_sa_ngd_ad #56
+estimating non-adjusted linear mixed-effcet model # 117
+# rsfmri_cor_ngd_cerc_scs_bs #116
+estimating non-adjusted linear mixed-effcet model # 137
+# rsfmri_cor_ngd_copa_scs_hplh #136
+estimating non-adjusted linear mixed-effcet model # 157
+# rsfmri_cor_ngd_df_scs_aglh #156
+estimating non-adjusted linear mixed-effcet model # 177
+# rsfmri_cor_ngd_dsa_scs_aalh #176
+estimating non-adjusted linear mixed-effcet model # 36
+# rsfmri_c_ngd_rspltp_ngd_n #35
+estimating non-adjusted linear mixed-effcet model # 76
+# rsfmri_c_ngd_vta_ngd_smh #75
+estimating non-adjusted linear mixed-effcet model # 96
+# rsfmri_cor_ngd_au_scs_ptlh #95
+estimating non-adjusted linear mixed-effcet model # 136
+# rsfmri_cor_ngd_copa_scs_bs #135
+estimating non-adjusted linear mixed-effcet model # 156
+# rsfmri_cor_ngd_df_scs_hplh #155
+estimating non-adjusted linear mixed-effcet model # 56
+# rsfmri_c_ngd_smm_ngd_smm #55
+estimating non-adjusted linear mixed-effcet model # 116
+# rsfmri_cor_ngd_cerc_scs_pllh #115
+estimating non-adjusted linear mixed-effcet model # 176
+# rsfmri_cor_ngd_dsa_scs_aglh #175
+estimating non-adjusted linear mixed-effcet model # 35
+# rsfmri_c_ngd_rspltp_ngd_fo #34
+estimating non-adjusted linear mixed-effcet model # 75
+# rsfmri_c_ngd_vta_ngd_rspltp #74
+estimating non-adjusted linear mixed-effcet model # 155
+# rsfmri_cor_ngd_df_scs_bs #154
+estimating non-adjusted linear mixed-effcet model # 55
+# rsfmri_c_ngd_smm_ngd_smh #54
+estimating non-adjusted linear mixed-effcet model # 95
+# rsfmri_cor_ngd_au_scs_cdelh #94
+estimating non-adjusted linear mixed-effcet model # 115
+# rsfmri_cor_ngd_cerc_scs_ptlh #114
+estimating non-adjusted linear mixed-effcet model # 135
+# rsfmri_cor_ngd_copa_scs_pllh #134
+estimating non-adjusted linear mixed-effcet model # 175
+# rsfmri_cor_ngd_dsa_scs_hplh #174
+estimating non-adjusted linear mixed-effcet model # 154
+# rsfmri_cor_ngd_df_scs_pllh #153
+estimating non-adjusted linear mixed-effcet model # 34
+# rsfmri_c_ngd_rspltp_ngd_dla #33
+estimating non-adjusted linear mixed-effcet model # 54
+# rsfmri_c_ngd_smm_ngd_rspltp #53
+estimating non-adjusted linear mixed-effcet model # 74
+# rsfmri_c_ngd_vta_ngd_n #73
+estimating non-adjusted linear mixed-effcet model # 94
+# rsfmri_cor_ngd_au_scs_thplh #93
+estimating non-adjusted linear mixed-effcet model # 134
+# rsfmri_cor_ngd_copa_scs_ptlh #133
+estimating non-adjusted linear mixed-effcet model # 114
+# rsfmri_cor_ngd_cerc_scs_cdelh #113
+estimating non-adjusted linear mixed-effcet model # 174
+# rsfmri_cor_ngd_dsa_scs_bs #173
+estimating non-adjusted linear mixed-effcet model # 33
+# rsfmri_c_ngd_rspltp_ngd_dt #32
+estimating non-adjusted linear mixed-effcet model # 73
+# rsfmri_c_ngd_vta_ngd_fo #72
+estimating non-adjusted linear mixed-effcet model # 93
+# rsfmri_cor_ngd_au_scs_crcxlh #92
+estimating non-adjusted linear mixed-effcet model # 153
+# rsfmri_cor_ngd_df_scs_ptlh #152
+estimating non-adjusted linear mixed-effcet model # 53
+# rsfmri_c_ngd_smm_ngd_n #52
+estimating non-adjusted linear mixed-effcet model # 113
+# rsfmri_cor_ngd_cerc_scs_thplh #112
+estimating non-adjusted linear mixed-effcet model # 133
+# rsfmri_cor_ngd_copa_scs_cdelh #132
+estimating non-adjusted linear mixed-effcet model # 173
+# rsfmri_cor_ngd_dsa_scs_pllh #172
+estimating non-adjusted linear mixed-effcet model # 72
+# rsfmri_c_ngd_vta_ngd_dla #71
+estimating non-adjusted linear mixed-effcet model # 152
+# rsfmri_cor_ngd_df_scs_cdelh #151
+estimating non-adjusted linear mixed-effcet model # 32
+# rsfmri_c_ngd_rspltp_ngd_ca #31
+estimating non-adjusted linear mixed-effcet model # 52
+# rsfmri_c_ngd_smm_ngd_fo #51
+estimating non-adjusted linear mixed-effcet model # 92
+# rsfmri_c_ngd_vs_ngd_vs #91
+estimating non-adjusted linear mixed-effcet model # 112
+# rsfmri_cor_ngd_cerc_scs_crcxlh #111
+estimating non-adjusted linear mixed-effcet model # 132
+# rsfmri_cor_ngd_copa_scs_thplh #131
+estimating non-adjusted linear mixed-effcet model # 172
+# rsfmri_cor_ngd_dsa_scs_ptlh #171
+estimating non-adjusted linear mixed-effcet model # 151
+# rsfmri_cor_ngd_df_scs_thplh #150
+estimating non-adjusted linear mixed-effcet model # 31
+# rsfmri_c_ngd_rspltp_ngd_cgc #30
+estimating non-adjusted linear mixed-effcet model # 51
+# rsfmri_c_ngd_smm_ngd_dla #50
+estimating non-adjusted linear mixed-effcet model # 71
+# rsfmri_c_ngd_vta_ngd_dt #70
+estimating non-adjusted linear mixed-effcet model # 91
+# rsfmri_c_ngd_vs_ngd_vta #90
+estimating non-adjusted linear mixed-effcet model # 111
+# rsfmri_cor_ngd_au_scs_vtdcrh #110
+estimating non-adjusted linear mixed-effcet model # 131
+# rsfmri_cor_ngd_copa_scs_crcxlh #130
+estimating non-adjusted linear mixed-effcet model # 171
+# rsfmri_cor_ngd_dsa_scs_cdelh #170
+estimating non-adjusted linear mixed-effcet model # 150
+# rsfmri_cor_ngd_df_scs_crcxlh #149
+estimating non-adjusted linear mixed-effcet model # 30
+# rsfmri_c_ngd_rspltp_ngd_ad #29
+estimating non-adjusted linear mixed-effcet model # 50
+# rsfmri_c_ngd_smm_ngd_dt #49
+estimating non-adjusted linear mixed-effcet model # 70
+# rsfmri_c_ngd_vta_ngd_ca #69
+estimating non-adjusted linear mixed-effcet model # 90
+# rsfmri_c_ngd_vs_ngd_sa #89
+estimating non-adjusted linear mixed-effcet model # 130
+# rsfmri_cor_ngd_cerc_scs_vtdcrh #129
+estimating non-adjusted linear mixed-effcet model # 170
+# rsfmri_cor_ngd_dsa_scs_thplh #169
+estimating non-adjusted linear mixed-effcet model # 110
+# rsfmri_cor_ngd_au_scs_aarh #109
+estimating non-adjusted linear mixed-effcet model # 29
+# rsfmri_c_ngd_n_ngd_n #28
+estimating non-adjusted linear mixed-effcet model # 69
+# rsfmri_c_ngd_vta_ngd_cgc #68
+estimating non-adjusted linear mixed-effcet model # 89
+# rsfmri_c_ngd_vs_ngd_smm #88
+estimating non-adjusted linear mixed-effcet model # 129
+# rsfmri_cor_ngd_cerc_scs_aarh #128
+estimating non-adjusted linear mixed-effcet model # 149
+# rsfmri_cor_ngd_copa_scs_vtdcrh #148
+estimating non-adjusted linear mixed-effcet model # 49
+# rsfmri_c_ngd_smm_ngd_ca #48
+estimating non-adjusted linear mixed-effcet model # 109
+# rsfmri_cor_ngd_au_scs_agrh #108
+estimating non-adjusted linear mixed-effcet model # 169
+# rsfmri_cor_ngd_dsa_scs_crcxlh #168
+estimating non-adjusted linear mixed-effcet model # 68
+# rsfmri_c_ngd_vta_ngd_ad #67
+estimating non-adjusted linear mixed-effcet model # 88
+# rsfmri_c_ngd_vs_ngd_smh #87
+estimating non-adjusted linear mixed-effcet model # 148
+# rsfmri_cor_ngd_copa_scs_aarh #147
+estimating non-adjusted linear mixed-effcet model # 28
+# rsfmri_c_ngd_n_ngd_fo #27
+estimating non-adjusted linear mixed-effcet model # 48
+# rsfmri_c_ngd_smm_ngd_cgc #47
+estimating non-adjusted linear mixed-effcet model # 108
+# rsfmri_cor_ngd_au_scs_hprh #107
+estimating non-adjusted linear mixed-effcet model # 128
+# rsfmri_cor_ngd_cerc_scs_agrh #127
+estimating non-adjusted linear mixed-effcet model # 168
+# rsfmri_cor_ngd_df_scs_vtdcrh #167
+estimating non-adjusted linear mixed-effcet model # 67
+# rsfmri_c_ngd_sa_ngd_sa #66
+estimating non-adjusted linear mixed-effcet model # 87
+# rsfmri_c_ngd_vs_ngd_rspltp #86
+estimating non-adjusted linear mixed-effcet model # 147
+# rsfmri_cor_ngd_copa_scs_agrh #146
+estimating non-adjusted linear mixed-effcet model # 27
+# rsfmri_c_ngd_n_ngd_dla #26
+estimating non-adjusted linear mixed-effcet model # 47
+# rsfmri_c_ngd_smm_ngd_ad #46
+estimating non-adjusted linear mixed-effcet model # 107
+# rsfmri_cor_ngd_au_scs_plrh #106
+estimating non-adjusted linear mixed-effcet model # 127
+# rsfmri_cor_ngd_cerc_scs_hprh #126
+estimating non-adjusted linear mixed-effcet model # 167
+# rsfmri_cor_ngd_df_scs_aarh #166
+estimating non-adjusted linear mixed-effcet model # 86
+# rsfmri_c_ngd_vs_ngd_n #85
+estimating non-adjusted linear mixed-effcet model # 26
+# rsfmri_c_ngd_n_ngd_dt #25
+estimating non-adjusted linear mixed-effcet model # 66
+# rsfmri_c_ngd_sa_ngd_smm #65
+estimating non-adjusted linear mixed-effcet model # 106
+# rsfmri_cor_ngd_au_scs_ptrh #105
+estimating non-adjusted linear mixed-effcet model # 126
+# rsfmri_cor_ngd_cerc_scs_plrh #125
+estimating non-adjusted linear mixed-effcet model # 146
+# rsfmri_cor_ngd_copa_scs_hprh #145
+estimating non-adjusted linear mixed-effcet model # 166
+# rsfmri_cor_ngd_df_scs_agrh #165
+estimating non-adjusted linear mixed-effcet model # 46
+# rsfmri_c_ngd_smh_ngd_smh #45
+estimating non-adjusted linear mixed-effcet model # 85
+estimating non-adjusted linear mixed-effcet model # 125
+estimating non-adjusted linear mixed-effcet model # 25
+estimating non-adjusted linear mixed-effcet model # 45
+estimating non-adjusted linear mixed-effcet model # 65
+estimating non-adjusted linear mixed-effcet model # 145
+estimating non-adjusted linear mixed-effcet model # 165
+# rsfmri_cor_ngd_smh_scs_crcxlh #244
+estimating non-adjusted linear mixed-effcet model # 244
+# rsfmri_cor_ngd_rst_scs_vtdcrh #243
+estimating non-adjusted linear mixed-effcet model # 105
+# rsfmri_cor_ngd_fopa_scs_aglh #194
+estimating non-adjusted linear mixed-effcet model # 194
+# rsfmri_cor_ngd_fopa_scs_hplh #193
+# rsfmri_cor_ngd_fopa_scs_aarh #204
+estimating non-adjusted linear mixed-effcet model # 204
+# rsfmri_cor_ngd_fopa_scs_agrh #203
+# rsfmri_cor_ngd_smh_scs_crcxrh #254
+estimating non-adjusted linear mixed-effcet model # 254
+# rsfmri_cor_ngd_smh_scs_vtdclh #253
+# rsfmri_cor_ngd_rst_scs_vtdclh #234
+estimating non-adjusted linear mixed-effcet model # 234
+# rsfmri_cor_ngd_rst_scs_aalh #233
+# rsfmri_cor_ngd_smm_scs_thplh #264
+estimating non-adjusted linear mixed-effcet model # 264
+# rsfmri_cor_ngd_smm_scs_crcxlh #263
+# rsfmri_cor_ngd_none_scs_aalh #214
+estimating non-adjusted linear mixed-effcet model # 214
+# rsfmri_cor_ngd_none_scs_aglh #213
+estimating non-adjusted linear mixed-effcet model # 243
+# rsfmri_cor_ngd_rst_scs_aarh #242
+# rsfmri_cor_ngd_none_scs_vtdcrh #224
+estimating non-adjusted linear mixed-effcet model # 224
+# rsfmri_cor_ngd_none_scs_aarh #223
+estimating non-adjusted linear mixed-effcet model # 193
+# rsfmri_cor_ngd_fopa_scs_bs #192
+estimating non-adjusted linear mixed-effcet model # 203
+# rsfmri_cor_ngd_fopa_scs_hprh #202
+estimating non-adjusted linear mixed-effcet model # 253
+# rsfmri_cor_ngd_smh_scs_aalh #252
+estimating non-adjusted linear mixed-effcet model # 233
+# rsfmri_cor_ngd_rst_scs_aglh #232
+estimating non-adjusted linear mixed-effcet model # 213
+# rsfmri_cor_ngd_none_scs_hplh #212
+estimating non-adjusted linear mixed-effcet model # 223
+# rsfmri_cor_ngd_none_scs_agrh #222
+estimating non-adjusted linear mixed-effcet model # 263
+# rsfmri_cor_ngd_smh_scs_vtdcrh #262
+estimating non-adjusted linear mixed-effcet model # 202
+# rsfmri_cor_ngd_fopa_scs_plrh #201
+estimating non-adjusted linear mixed-effcet model # 242
+# rsfmri_cor_ngd_rst_scs_agrh #241
+estimating non-adjusted linear mixed-effcet model # 192
+# rsfmri_cor_ngd_fopa_scs_pllh #191
+estimating non-adjusted linear mixed-effcet model # 212
+# rsfmri_cor_ngd_none_scs_bs #211
+estimating non-adjusted linear mixed-effcet model # 252
+# rsfmri_cor_ngd_smh_scs_aglh #251
+estimating non-adjusted linear mixed-effcet model # 232
+# rsfmri_cor_ngd_rst_scs_hplh #231
+estimating non-adjusted linear mixed-effcet model # 262
+# rsfmri_cor_ngd_smh_scs_aarh #261
+estimating non-adjusted linear mixed-effcet model # 222
+# rsfmri_cor_ngd_none_scs_hprh #221
+estimating non-adjusted linear mixed-effcet model # 201
+# rsfmri_cor_ngd_fopa_scs_ptrh #200
+estimating non-adjusted linear mixed-effcet model # 241
+# rsfmri_cor_ngd_rst_scs_hprh #240
+estimating non-adjusted linear mixed-effcet model # 261
+# rsfmri_cor_ngd_smh_scs_agrh #260
+estimating non-adjusted linear mixed-effcet model # 191
+# rsfmri_cor_ngd_fopa_scs_ptlh #190
+estimating non-adjusted linear mixed-effcet model # 211
+# rsfmri_cor_ngd_none_scs_pllh #210
+estimating non-adjusted linear mixed-effcet model # 221
+# rsfmri_cor_ngd_none_scs_plrh #220
+estimating non-adjusted linear mixed-effcet model # 251
+# rsfmri_cor_ngd_smh_scs_hplh #250
+estimating non-adjusted linear mixed-effcet model # 231
+# rsfmri_cor_ngd_rst_scs_bs #230
+estimating non-adjusted linear mixed-effcet model # 200
+# rsfmri_cor_ngd_fopa_scs_cderh #199
+estimating non-adjusted linear mixed-effcet model # 240
+# rsfmri_cor_ngd_rst_scs_plrh #239
+estimating non-adjusted linear mixed-effcet model # 190
+# rsfmri_cor_ngd_fopa_scs_cdelh #189
+estimating non-adjusted linear mixed-effcet model # 210
+# rsfmri_cor_ngd_none_scs_ptlh #209
+estimating non-adjusted linear mixed-effcet model # 250
+# rsfmri_cor_ngd_smh_scs_bs #249
+estimating non-adjusted linear mixed-effcet model # 230
+# rsfmri_cor_ngd_rst_scs_pllh #229
+estimating non-adjusted linear mixed-effcet model # 260
+# rsfmri_cor_ngd_smh_scs_hprh #259
+estimating non-adjusted linear mixed-effcet model # 199
+# rsfmri_cor_ngd_fopa_scs_thprh #198
+estimating non-adjusted linear mixed-effcet model # 220
+# rsfmri_cor_ngd_none_scs_ptrh #219
+estimating non-adjusted linear mixed-effcet model # 189
+# rsfmri_cor_ngd_fopa_scs_thplh #188
+estimating non-adjusted linear mixed-effcet model # 239
+# rsfmri_cor_ngd_rst_scs_ptrh #238
+estimating non-adjusted linear mixed-effcet model # 249
+# rsfmri_cor_ngd_smh_scs_pllh #248
+estimating non-adjusted linear mixed-effcet model # 229
+# rsfmri_cor_ngd_rst_scs_ptlh #228
+estimating non-adjusted linear mixed-effcet model # 259
+# rsfmri_cor_ngd_smh_scs_plrh #258
+estimating non-adjusted linear mixed-effcet model # 209
+# rsfmri_cor_ngd_none_scs_cdelh #208
+estimating non-adjusted linear mixed-effcet model # 198
+# rsfmri_cor_ngd_fopa_scs_crcxrh #197
+estimating non-adjusted linear mixed-effcet model # 219
+# rsfmri_cor_ngd_none_scs_cderh #218
+estimating non-adjusted linear mixed-effcet model # 238
+# rsfmri_cor_ngd_rst_scs_cderh #237
+estimating non-adjusted linear mixed-effcet model # 248
+# rsfmri_cor_ngd_smh_scs_ptlh #247
+estimating non-adjusted linear mixed-effcet model # 188
+# rsfmri_cor_ngd_fopa_scs_crcxlh #187
+estimating non-adjusted linear mixed-effcet model # 208
+# rsfmri_cor_ngd_none_scs_thplh #207
+estimating non-adjusted linear mixed-effcet model # 228
+# rsfmri_cor_ngd_rst_scs_cdelh #227
+estimating non-adjusted linear mixed-effcet model # 258
+# rsfmri_cor_ngd_smh_scs_ptrh #257
+estimating non-adjusted linear mixed-effcet model # 197
+# rsfmri_cor_ngd_fopa_scs_vtdclh #196
+estimating non-adjusted linear mixed-effcet model # 218
+# rsfmri_cor_ngd_none_scs_thprh #217
+estimating non-adjusted linear mixed-effcet model # 187
+# rsfmri_cor_ngd_dsa_scs_vtdcrh #186
+estimating non-adjusted linear mixed-effcet model # 207
+# rsfmri_cor_ngd_none_scs_crcxlh #206
+estimating non-adjusted linear mixed-effcet model # 237
+# rsfmri_cor_ngd_rst_scs_thprh #236
+estimating non-adjusted linear mixed-effcet model # 247
+# rsfmri_cor_ngd_smh_scs_cdelh #246
+estimating non-adjusted linear mixed-effcet model # 227
+# rsfmri_cor_ngd_rst_scs_thplh #226
+estimating non-adjusted linear mixed-effcet model # 257
+# rsfmri_cor_ngd_smh_scs_cderh #256
+estimating non-adjusted linear mixed-effcet model # 196
+# rsfmri_cor_ngd_fopa_scs_aalh #195
+estimating non-adjusted linear mixed-effcet model # 217
+# rsfmri_cor_ngd_none_scs_crcxrh #216
+estimating non-adjusted linear mixed-effcet model # 186
+# rsfmri_cor_ngd_dsa_scs_aarh #185
+estimating non-adjusted linear mixed-effcet model # 246
+# rsfmri_cor_ngd_smh_scs_thplh #245
+estimating non-adjusted linear mixed-effcet model # 256
+# rsfmri_cor_ngd_smh_scs_thprh #255
+estimating non-adjusted linear mixed-effcet model # 206
+# rsfmri_cor_ngd_fopa_scs_vtdcrh #205
+estimating non-adjusted linear mixed-effcet model # 195
+estimating non-adjusted linear mixed-effcet model # 236
+# rsfmri_cor_ngd_rst_scs_crcxrh #235
+estimating non-adjusted linear mixed-effcet model # 226
+# rsfmri_cor_ngd_rst_scs_crcxlh #225
+estimating non-adjusted linear mixed-effcet model # 216
+# rsfmri_cor_ngd_none_scs_vtdclh #215
+estimating non-adjusted linear mixed-effcet model # 185
+estimating non-adjusted linear mixed-effcet model # 205
+estimating non-adjusted linear mixed-effcet model # 235
+estimating non-adjusted linear mixed-effcet model # 245
+estimating non-adjusted linear mixed-effcet model # 255
+# rsfmri_cor_ngd_sa_scs_cdelh #284
+estimating non-adjusted linear mixed-effcet model # 284
+# rsfmri_cor_ngd_sa_scs_thplh #283
+estimating non-adjusted linear mixed-effcet model # 215
+estimating non-adjusted linear mixed-effcet model # 225
+# rsfmri_cor_ngd_smm_scs_hplh #269
+estimating non-adjusted linear mixed-effcet model # 269
+# rsfmri_cor_ngd_smm_scs_bs #268
+# rsfmri_cor_ngd_sa_scs_cderh #294
+estimating non-adjusted linear mixed-effcet model # 294
+# rsfmri_cor_ngd_sa_scs_thprh #293
+# rsfmri_cor_ngd_sa_scs_aarh #299
+estimating non-adjusted linear mixed-effcet model # 299
+# rsfmri_cor_ngd_sa_scs_agrh #298
+# rsfmri_cor_ngd_smm_scs_thprh #274
+estimating non-adjusted linear mixed-effcet model # 274
+# rsfmri_cor_ngd_smm_scs_crcxrh #273
+# rsfmri_cor_ngd_smm_scs_agrh #279
+estimating non-adjusted linear mixed-effcet model # 279
+# rsfmri_cor_ngd_smm_scs_hprh #278
+# rsfmri_cor_ngd_sa_scs_aglh #289
+estimating non-adjusted linear mixed-effcet model # 289
+# rsfmri_cor_ngd_sa_scs_hplh #288
+estimating non-adjusted linear mixed-effcet model # 283
+# rsfmri_cor_ngd_sa_scs_crcxlh #282
+# rsfmri_cor_ngd_vta_scs_ptlh #304
+estimating non-adjusted linear mixed-effcet model # 304
+# rsfmri_cor_ngd_vta_scs_cdelh #303
+estimating non-adjusted linear mixed-effcet model # 293
+# rsfmri_cor_ngd_sa_scs_crcxrh #292
+estimating non-adjusted linear mixed-effcet model # 298
+# rsfmri_cor_ngd_sa_scs_hprh #297
+estimating non-adjusted linear mixed-effcet model # 268
+# rsfmri_cor_ngd_smm_scs_pllh #267
+estimating non-adjusted linear mixed-effcet model # 273
+# rsfmri_cor_ngd_smm_scs_vtdclh #272
+estimating non-adjusted linear mixed-effcet model # 278
+# rsfmri_cor_ngd_smm_scs_plrh #277
+estimating non-adjusted linear mixed-effcet model # 288
+# rsfmri_cor_ngd_sa_scs_bs #287
+estimating non-adjusted linear mixed-effcet model # 282
+# rsfmri_cor_ngd_smm_scs_vtdcrh #281
+estimating non-adjusted linear mixed-effcet model # 303
+# rsfmri_cor_ngd_vta_scs_thplh #302
+estimating non-adjusted linear mixed-effcet model # 292
+# rsfmri_cor_ngd_sa_scs_vtdclh #291
+estimating non-adjusted linear mixed-effcet model # 297
+# rsfmri_cor_ngd_sa_scs_plrh #296
+estimating non-adjusted linear mixed-effcet model # 267
+# rsfmri_cor_ngd_smm_scs_ptlh #266
+estimating non-adjusted linear mixed-effcet model # 272
+# rsfmri_cor_ngd_smm_scs_aalh #271
+estimating non-adjusted linear mixed-effcet model # 287
+# rsfmri_cor_ngd_sa_scs_pllh #286
+estimating non-adjusted linear mixed-effcet model # 277
+# rsfmri_cor_ngd_smm_scs_ptrh #276
+estimating non-adjusted linear mixed-effcet model # 296
+# rsfmri_cor_ngd_sa_scs_ptrh #295
+estimating non-adjusted linear mixed-effcet model # 281
+# rsfmri_cor_ngd_smm_scs_aarh #280
+estimating non-adjusted linear mixed-effcet model # 266
+# rsfmri_cor_ngd_smm_scs_cdelh #265
+estimating non-adjusted linear mixed-effcet model # 302
+# rsfmri_cor_ngd_vta_scs_crcxlh #301
+estimating non-adjusted linear mixed-effcet model # 271
+# rsfmri_cor_ngd_smm_scs_aglh #270
+estimating non-adjusted linear mixed-effcet model # 286
+# rsfmri_cor_ngd_sa_scs_ptlh #285
+estimating non-adjusted linear mixed-effcet model # 291
+# rsfmri_cor_ngd_sa_scs_aalh #290
+estimating non-adjusted linear mixed-effcet model # 276
+# rsfmri_cor_ngd_smm_scs_cderh #275
+estimating non-adjusted linear mixed-effcet model # 280
+estimating non-adjusted linear mixed-effcet model # 301
+# rsfmri_cor_ngd_sa_scs_vtdcrh #300
+estimating non-adjusted linear mixed-effcet model # 270
+estimating non-adjusted linear mixed-effcet model # 290
+estimating non-adjusted linear mixed-effcet model # 295
+estimating non-adjusted linear mixed-effcet model # 265
+estimating non-adjusted linear mixed-effcet model # 275
+estimating non-adjusted linear mixed-effcet model # 285
+# rsfmri_cor_ngd_vta_scs_vtdcrh #319
+estimating non-adjusted linear mixed-effcet model # 319
+# rsfmri_cor_ngd_vta_scs_aarh #318
+# rsfmri_cor_ngd_vta_scs_hprh #316
+estimating non-adjusted linear mixed-effcet model # 316
+# rsfmri_cor_ngd_vta_scs_plrh #315
+# rsfmri_cor_ngd_vta_scs_hplh #307
+estimating non-adjusted linear mixed-effcet model # 307
+# rsfmri_cor_ngd_vta_scs_bs #306
+# rsfmri_cor_ngd_vs_scs_cdelh #322
+estimating non-adjusted linear mixed-effcet model # 322
+# rsfmri_cor_ngd_vs_scs_thplh #321
+estimating non-adjusted linear mixed-effcet model # 300
+# rsfmri_cor_ngd_vta_scs_cderh #313
+estimating non-adjusted linear mixed-effcet model # 313
+# rsfmri_cor_ngd_vta_scs_thprh #312
+# rsfmri_cor_ngd_vs_scs_bs #325
+estimating non-adjusted linear mixed-effcet model # 325
+# rsfmri_cor_ngd_vs_scs_pllh #324
+# rsfmri_cor_ngd_vta_scs_vtdclh #310
+estimating non-adjusted linear mixed-effcet model # 310
+# rsfmri_cor_ngd_vta_scs_aalh #309
+estimating non-adjusted linear mixed-effcet model # 315
+# rsfmri_cor_ngd_vta_scs_ptrh #314
+estimating non-adjusted linear mixed-effcet model # 306
+# rsfmri_cor_ngd_vta_scs_pllh #305
+estimating non-adjusted linear mixed-effcet model # 321
+# rsfmri_cor_ngd_vs_scs_crcxlh #320
+# rsfmri_cor_ngd_vs_scs_aalh #328
+estimating non-adjusted linear mixed-effcet model # 328
+# rsfmri_cor_ngd_vs_scs_aglh #327
+estimating non-adjusted linear mixed-effcet model # 312
+# rsfmri_cor_ngd_vta_scs_crcxrh #311
+estimating non-adjusted linear mixed-effcet model # 324
+# rsfmri_cor_ngd_vs_scs_ptlh #323
+estimating non-adjusted linear mixed-effcet model # 318
+# rsfmri_cor_ngd_vta_scs_agrh #317
+estimating non-adjusted linear mixed-effcet model # 309
+# rsfmri_cor_ngd_vta_scs_aglh #308
+estimating non-adjusted linear mixed-effcet model # 305
+estimating non-adjusted linear mixed-effcet model # 327
+# rsfmri_cor_ngd_vs_scs_hplh #326
+estimating non-adjusted linear mixed-effcet model # 311
+estimating non-adjusted linear mixed-effcet model # 323
+estimating non-adjusted linear mixed-effcet model # 317
+estimating non-adjusted linear mixed-effcet model # 314
+estimating non-adjusted linear mixed-effcet model # 320
+estimating non-adjusted linear mixed-effcet model # 308
+# rsfmri_cor_ngd_vs_scs_vtdclh #329
+estimating non-adjusted linear mixed-effcet model # 329
+estimating non-adjusted linear mixed-effcet model # 326
+# rsfmri_cor_ngd_vs_scs_crcxrh #330
+estimating non-adjusted linear mixed-effcet model # 330
+# rsfmri_cor_ngd_vs_scs_plrh #334
+estimating non-adjusted linear mixed-effcet model # 334
+# rsfmri_cor_ngd_vs_scs_agrh #336
+estimating non-adjusted linear mixed-effcet model # 336
+# rsfmri_cor_ngd_vs_scs_hprh #335
+# rsfmri_cor_ngd_vs_scs_thprh #331
+estimating non-adjusted linear mixed-effcet model # 331
+# rsfmri_cor_ngd_vs_scs_cderh #332
+estimating non-adjusted linear mixed-effcet model # 332
+# rsfmri_cor_ngd_vs_scs_vtdcrh #338
+estimating non-adjusted linear mixed-effcet model # 338
+# rsfmri_cor_ngd_vs_scs_aarh #337
+# rsfmri_cor_ngd_vs_scs_ptrh #333
+estimating non-adjusted linear mixed-effcet model # 333
+estimating non-adjusted linear mixed-effcet model # 335
+estimating non-adjusted linear mixed-effcet model # 337
+
+ans =
+
+  8×18 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+          Y_Name_RSFC_Name                      Node1                            Node2                noAdj_coef       coef          SE         LowCI        UpCI        tvals        pvals       FDR_pvals    Included_N    noAdj_SE    noAdj_LowCI    noAdj_UpCI    noAdj_tvals    noAdj_pvals    noAdj_FDR_pvals
+    ____________________________    _____________________________    _____________________________    ___________    _________    ________    _________    _________    ________    __________    _________    __________    ________    ___________    __________    ___________    ___________    _______________
+
+    {'rsfmri_c_ngd_ad_ngd_ad'  }    {'auditory network'         }    {'auditory network'         }      -0.013834      0.02066    0.025507    -0.029341      0.07066     0.80995       0.41799     0.61547        8541       0.024631     -0.062116      0.034448       -0.56167        0.57436          0.64496   
+    {'rsfmri_c_ngd_ca_ngd_ad'  }    {'cingulo parietal network' }    {'auditory network'         }       0.036139     0.025205    0.025965    -0.025693     0.076103     0.97072       0.33171     0.55635        8541       0.025179     -0.013218      0.085497         1.4353        0.15124            0.213   
+    {'rsfmri_c_ngd_ca_ngd_ca'  }    {'cingulo parietal network' }    {'cingulo parietal network' }       0.064272     0.097324    0.025742     0.046863      0.14778      3.7807    0.00015745    0.004485        8541       0.024984      0.015296       0.11325         2.5725       0.010114         0.020471   
+    {'rsfmri_c_ngd_ca_ngd_cgc' }    {'cingulo parietal network' }    {'cingulo opercular network'}    -0.00085374    0.0012189    0.025861    -0.049475     0.051912    0.047134       0.96241     0.98276        8538       0.024891     -0.049646      0.047939      -0.034299        0.97264          0.97553   
+    {'rsfmri_c_ngd_cgc_ngd_ad' }    {'cingulo opercular network'}    {'auditory network'         }       -0.10171    -0.020549    0.025199    -0.069946     0.028847    -0.81548       0.41482     0.61547        8538       0.024396      -0.14953     -0.053886         -4.169     3.0892e-05       0.00011831   
+    {'rsfmri_c_ngd_cgc_ngd_cgc'}    {'cingulo opercular network'}    {'cingulo opercular network'}       -0.21268    -0.091222    0.024055     -0.13838    -0.044068     -3.7922    0.00015036    0.004485        8538       0.023806      -0.25935      -0.16602        -8.9339     4.9732e-19       1.6809e-16   
+    {'rsfmri_c_ngd_dla_ngd_ad' }    {'dorsal attention network' }    {'auditory network'         }       0.049554     0.013498    0.026137    -0.037737     0.064734     0.51644       0.60556      0.7528        8541       0.025205    0.00014554      0.098962          1.966       0.049329          0.08016   
+    {'rsfmri_c_ngd_dla_ngd_ca' }    {'dorsal attention network' }    {'cingulo parietal network' }     -0.0030263    0.0025635    0.026153    -0.048704      0.05383    0.098017       0.92192     0.96473        8541       0.025106     -0.052241      0.046188       -0.12054        0.90406           0.9204   
+
+Result table has been written into ..\Res_2_Results\Table_FigS11.xlsx

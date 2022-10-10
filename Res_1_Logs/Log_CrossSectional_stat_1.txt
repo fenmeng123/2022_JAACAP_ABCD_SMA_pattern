@@ -1,0 +1,19 @@
+Key variables:
+    {'eventname'}    {'interview_age'}    {'interview_date'}    {'sex'}    {'src_subject_id'}
+
+Missing number in the demographic variables
+    {'Idx'}    {'Rela'}    {'Edu'}    {'Race'}    {'PrntMari'}    {'PrntEmp'}    {'PrntEdu'}    {'FamSize'}    {'AnoHouse'}    {'BirthCoun'}    {'FamIncome'}
+    {[ 61]}    {[   0]}    {[  2]}    {[ 121]}    {[      96]}    {[    954]}    {[     14]}    {[    280]}    {[      84]}    {[      187]}    {[     1018]}
+
+Recoding the demographics from R type to MATLAB type......
+check and change the cluster index number......
+raw cluster index number from kmeans  Value    Count   Percent
+      1     8664     73.33%
+      2     3151     26.67%
+new cluster index number  Value    Count   Percent
+      1     3151     26.67%
+      2     8664     73.33%
+Recoding finished!
+  Value    Count   Percent
+      1     8664     73.33%
+      2     3151     26.67%

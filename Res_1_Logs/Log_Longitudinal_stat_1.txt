@@ -1,0 +1,172 @@
+Summary: data points within different time waves                     Value    Count   Percent
+  1_year_follow_up_y_arm_1    11225     28.23%
+     baseline_year_1_arm_1    11876     29.86%
+  2_year_follow_up_y_arm_1    10414     26.19%
+  3_year_follow_up_y_arm_1     6251     15.72%
+# 5 varaibles in data table are cell string
+Selected variables name
+    {'NIHTB_list_ac'}    {'NIHTB_cardsort_ac'}    {'NIHTB_fluidcomp_ac'}    {'NIHTB_cryst_ac'}    {'NIHTB_totalcomp_ac'}
+
+Converting cell string to double......
+Convert variable:NIHTB_list_ac......
+Convert variable:NIHTB_cardsort_ac......
+Convert variable:NIHTB_fluidcomp_ac......
+Convert variable:NIHTB_cryst_ac......
+Convert variable:NIHTB_totalcomp_ac......
+Convert finished!
+Handling the NA values from R-code......
+Replace NA with nan......
+Attaching the cluster index......
+Key variables:
+    {'eventname'}    {'interview_age'}    {'interview_date'}    {'sex'}    {'src_subject_id'}
+
+Attach finished!
+Missing number in the demographic variables
+    {'Idx'}    {'Rela'}    {'Edu'}    {'Race'}    {'PrntMari'}    {'PrntEmp'}    {'PrntEdu'}    {'FamSize'}    {'AnoHouse'}    {'BirthCoun'}    {'FamIncome'}
+    {[ 61]}    {[   0]}    {[  2]}    {[ 121]}    {[      96]}    {[    954]}    {[     14]}    {[    280]}    {[      84]}    {[      187]}    {[     1018]}
+
+Recoding the demographics from R type to MATLAB type......
+check and change the cluster index number......
+raw cluster index number from kmeans  Value    Count   Percent
+      1     8664     73.33%
+      2     3151     26.67%
+new cluster index number  Value    Count   Percent
+      1     3151     26.67%
+      2     8664     73.33%
+Recoding finished!
+Complete the missing values (empty) in follow-up waves with baseline demographcis......
+Demographics variable list:
+    {'Race_PrntRep'        }
+    {'Ethnicity_PrntRep'   }
+    {'BirthCountry'        }
+    {'ParentMarital'       }
+    {'ParentsEdu'          }
+    {'ParentsMaritalEmploy'}
+    {'FamilyIncome'        }
+    {'HouseholdSize'       }
+    {'HouseholdStructure'  }
+    {'FamilyID'            }
+    {'Relationship'        }
+    {'Handedness'          }
+    {'BMI_calc'            }
+    {'site_id_l'           }
+    {'EducationR'          }
+
+Demographics variable list:
+    {'Race_PrntRep'        }
+    {'Ethnicity_PrntRep'   }
+    {'BirthCountry'        }
+    {'ParentMarital'       }
+    {'ParentsEdu'          }
+    {'ParentsMaritalEmploy'}
+    {'FamilyIncome'        }
+    {'HouseholdSize'       }
+    {'HouseholdStructure'  }
+    {'FamilyID'            }
+    {'Relationship'        }
+    {'Handedness'          }
+    {'BMI_calc'            }
+    {'site_id_l'           }
+    {'EducationR'          }
+
+Demographics variable list:
+    {'Race_PrntRep'        }
+    {'Ethnicity_PrntRep'   }
+    {'BirthCountry'        }
+    {'ParentMarital'       }
+    {'ParentsEdu'          }
+    {'ParentsMaritalEmploy'}
+    {'FamilyIncome'        }
+    {'HouseholdSize'       }
+    {'HouseholdStructure'  }
+    {'FamilyID'            }
+    {'Relationship'        }
+    {'Handedness'          }
+    {'BMI_calc'            }
+    {'site_id_l'           }
+    {'EducationR'          }
+
+Complete finished!
+Subject ID repeatition times:
+  Value    Count   Percent
+      1      389      3.28%
+      2     1121      9.44%
+      3     4331     36.47%
+      4     6035     50.82%
+Selected the subject ID with repatition times>=3 (baseline, 1-year, 2-year, 3-year)
+==================Start Longitudinal LME=======================
+# 3 DVs are needed to be entered into LME model
+LME formula:Y~Idx*Time+baseline_age+sex+Race_PrntRep+Ethnicity_PrntRep+ParentsEdu+ParentMarital+FamilyIncome+HouseholdSize+HouseholdStructure+(Time|site_id_l)+(Time|site_id_l:src_subject_id)
+Notes: Y is the DV_VarName
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 8).
+Preparing DV:UPPS_Sum......
+Preparing DV:BIS_Sum......
+Preparing DV:BAS_Sum......
+Change the DV variable name from UPPS_Sum to Y
+# 16515 data points have missing values in DV (Total: 37133)
+Time waves after removing missing values:
+                     Value    Count   Percent
+Change the DV variable name from BIS_Sum to Y
+# 16515 data points have missing values in DV (Total: 37133)
+Time waves after removing missing values:
+                     Value    Count   Percent
+Change the DV variable name from BAS_Sum to Y
+# 16516 data points have missing values in DV (Total: 37133)
+Time waves after removing missing values:
+                     Value    Count   Percent
+     baseline_year_1_arm_1    10352     50.21%
+  2_year_follow_up_y_arm_1    10266     49.79%
+Subject ID repeatition times after removing missing values:
+  Value    Count   Percent
+      1      112      1.08%
+      2    10253     98.92%
+Selected the subject ID with repatition times>=3 (baseline, 1-year, 2-year, 3-year)
+Time waves after matching ID across time waves:
+     baseline_year_1_arm_1    10352     50.21%
+  2_year_follow_up_y_arm_1    10266     49.79%
+Subject ID repeatition times after removing missing values:
+  Value    Count   Percent
+      1      112      1.08%
+      2    10253     98.92%
+Selected the subject ID with repatition times>=3 (baseline, 1-year, 2-year, 3-year)
+Time waves after matching ID across time waves:
+     baseline_year_1_arm_1    10351     50.21%
+  2_year_follow_up_y_arm_1    10266     49.79%
+Subject ID repeatition times after removing missing values:
+  Value    Count   Percent
+      1      113      1.09%
+      2    10252     98.91%
+Selected the subject ID with repatition times>=3 (baseline, 1-year, 2-year, 3-year)
+Time waves after matching ID across time waves:
+                     Value    Count   Percent
+     baseline_year_1_arm_1    10253     50.00%
+  2_year_follow_up_y_arm_1    10253     50.00%
+Recoding eventname to numric time waves (VarName:Time)......
+  Value    Count   Percent
+      0    10253     50.00%
+      1    10253     50.00%
+Fitting LME model for DV:UPPS_Sum......
+# 18326 number of data points (9163 for subjects) for DV:UPPS_Sum
+                     Value    Count   Percent
+     baseline_year_1_arm_1    10252     50.00%
+  2_year_follow_up_y_arm_1    10252     50.00%
+Recoding eventname to numric time waves (VarName:Time)......
+  Value    Count   Percent
+      0    10252     50.00%
+      1    10252     50.00%
+Fitting LME model for DV:BAS_Sum......
+# 18326 number of data points (9163 for subjects) for DV:BAS_Sum
+# DV:BAS_Sum LME fitting finished!
+# DV:UPPS_Sum LME fitting finished!
+                     Value    Count   Percent
+     baseline_year_1_arm_1    10253     50.00%
+  2_year_follow_up_y_arm_1    10253     50.00%
+Recoding eventname to numric time waves (VarName:Time)......
+  Value    Count   Percent
+      0    10253     50.00%
+      1    10253     50.00%
+Fitting LME model for DV:BIS_Sum......
+# 18326 number of data points (9163 for subjects) for DV:BIS_Sum
+# DV:BIS_Sum LME fitting finished!
+==================End Longitudinal LME=======================

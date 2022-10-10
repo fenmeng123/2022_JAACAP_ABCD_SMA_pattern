@@ -1,0 +1,44 @@
+# 752 subjects have missing values in SMA Pattern Transition Label
+This may be caused by mismatched ID, missing values in STQ
+Remove subjects with missing values in transition label...
+# N=11877 before removing
+# N=11125 After removing
+Missing values statistics in demographics
+  列 1 至 7
+
+    {'sex'}    {'baseline_age'}    {'Race_PrntRep'}    {'Ethnicity_PrntRep'}    {'ParentMarital'}    {'ParentsEdu'}    {'FamilyIncome'}
+    {[  0]}    {[           0]}    {[         105]}    {[                0]}    {[           75]}    {[        12]}    {[         903]}
+
+  列 8 至 9
+
+    {'HouseholdSize'}    {'HouseholdStruct…'}
+    {[          222]}    {[               67]}
+
+# 1189 subjects have missing values in demographics
+Remove subjects with missing values in demographics...
+# N=11125 before removing
+# N=9936 After removing
+Missing values statistics in behavioral and brain RS measures
+  列 1 至 6
+
+    {'CBCL_syn_intern…'}    {'CBCL_syn_extern…'}    {'CBCL_syn_totpro…'}    {'PPS_Severity_Sum'}    {'BIS_Sum'}    {'NIHTB_fluidcomp…'}
+    {[                3]}    {[                3]}    {[                3]}    {[               3]}    {[      4]}    {[              324]}
+
+  列 7 至 12
+
+    {'NIHTB_cryst_ac'}    {'NIHTB_totalcomp…'}    {'rsfmri_c_ngd_vt…'}    {'rsfmri_cor_ngd_…'}    {'rsfmri_cor_ngd_…'}    {'rsfmri_cor_ngd_…'}
+    {[           286]}    {[              327]}    {[              497]}    {[              507]}    {[              494]}    {[              496]}
+
+  列 13 至 15
+
+    {'imgincl_rsfmri_…'}    {'UPPS_Sum'}    {'BAS_Sum'}
+    {[               51]}    {[       4]}    {[      4]}
+
+# 831 subjects have missing values in measures
+Remove subjects with missing values in measures...
+# N=9936 before removing
+# N=9105 After removing
+# 1273 subjects failed in RS-fMRI QC check (ABCD recommended inclusion)
+Remove subjects with missing values in measures...
+# N=9105 before removing
+# N=7832 After removing

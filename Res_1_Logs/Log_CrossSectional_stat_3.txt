@@ -1,0 +1,89 @@
+# 1567 subjects have missing values in demographics at baseline
+Included demographics:
+    {'Idx'}    {'Rela'}    {'Race'}    {'PrntMari'}    {'PrntEdu'}    {'FamSize'}    {'AnoHouse'}    {'BirthCoun'}    {'FamIncome'}
+
+Missing number in the demographic variables
+    {'Idx'}    {'Rela'}    {'Race'}    {'PrntMari'}    {'PrntEdu'}    {'FamSize'}    {'AnoHouse'}    {'BirthCoun'}    {'FamIncome'}
+    {[ 61]}    {[   0]}    {[ 121]}    {[      96]}    {[     14]}    {[    280]}    {[      84]}    {[      187]}    {[     1018]}
+
+Notes: interview_age, sex, ethnicity and handedness don have missing values
+   Value    Count   Percent
+      2     8664     73.33%
+      1     3151     26.67%
+# 10309 subjects left after list-wise deletion
+[警告: 无约束协方差参数的协方差矩阵不是正定矩阵。这可能表示模型的协方差参数多于数据支持的协方差参数。 最小特征值为 0。] 
+[> 位置：<a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr.lmeutils/StandardLinearLikeMixedModel/checkPositiveDefinite', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardLinearLikeMixedModel.m', 2032)" style="font-weight:bold">classreg.regr.lmeutils/StandardLinearLikeMixedModel/checkPositiveDefinite</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardLinearLikeMixedModel.m',2032,0)">第 2032 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr.lmeutils/StandardLinearMixedModel/initstats', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardLinearMixedModel.m', 1545)" style="font-weight:bold">classreg.regr.lmeutils/StandardLinearMixedModel/initstats</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardLinearMixedModel.m',1545,0)">第 1545 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel/initstatsPL', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m', 1741)" style="font-weight:bold">classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel/initstatsPL</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m',1741,0)">第 1741 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel/initstats', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m', 4364)" style="font-weight:bold">classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel/initstats</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m',4364,0)">第 4364 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m', 4291)" style="font-weight:bold">classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m',4291,0)">第 4291 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GeneralizedLinearMixedModel/fitStandardLMEModel', 'E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m', 1317)" style="font-weight:bold">GeneralizedLinearMixedModel/fitStandardLMEModel</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m',1317,0)">第 1317 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GeneralizedLinearMixedModel/fitter', 'E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m', 891)" style="font-weight:bold">GeneralizedLinearMixedModel/fitter</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m',891,0)">第 891 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr/FitObject/doFit', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\FitObject.m', 94)" style="font-weight:bold">classreg.regr/FitObject/doFit</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\FitObject.m',94,0)">第 94 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GeneralizedLinearMixedModel.fit', 'E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m', 2417)" style="font-weight:bold">GeneralizedLinearMixedModel.fit</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m',2417,0)">第 2417 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fitglme', 'E:\matlab2020b\toolbox\stats\classreg\fitglme.m', 398)" style="font-weight:bold">fitglme</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\fitglme.m',398,0)">第 398 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('stat_3_DemoGLME', 'I:\ABCDStudyNDA\ABCD_DataAnalysis\Code_ScreenAnalysis2021\Pipeline\ABCD_SMA_Code_JAACAP2022\Step_2_CrossSectional\stat_3_DemoGLME.m', 25)" style="font-weight:bold">stat_3_DemoGLME</a> (<a href="matlab: opentoline('I:\ABCDStudyNDA\ABCD_DataAnalysis\Code_ScreenAnalysis2021\Pipeline\ABCD_SMA_Code_JAACAP2022\Step_2_CrossSectional\stat_3_DemoGLME.m',25,0)">第 25 行</a>)] 
+[警告: 自然协方差参数的协方差矩阵不是正定矩阵。这可能表示模型的协方差参数多于数据支持的协方差参数。 最小特征值为 0。] 
+[> 位置：<a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr.lmeutils/StandardLinearLikeMixedModel/checkPositiveDefinite', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardLinearLikeMixedModel.m', 2032)" style="font-weight:bold">classreg.regr.lmeutils/StandardLinearLikeMixedModel/checkPositiveDefinite</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardLinearLikeMixedModel.m',2032,0)">第 2032 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr.lmeutils/StandardLinearMixedModel/initstats', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardLinearMixedModel.m', 1557)" style="font-weight:bold">classreg.regr.lmeutils/StandardLinearMixedModel/initstats</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardLinearMixedModel.m',1557,0)">第 1557 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel/initstatsPL', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m', 1741)" style="font-weight:bold">classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel/initstatsPL</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m',1741,0)">第 1741 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel/initstats', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m', 4364)" style="font-weight:bold">classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel/initstats</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m',4364,0)">第 4364 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m', 4291)" style="font-weight:bold">classreg.regr.lmeutils/StandardGeneralizedLinearMixedModel</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\+lmeutils\StandardGeneralizedLinearMixedModel.m',4291,0)">第 4291 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GeneralizedLinearMixedModel/fitStandardLMEModel', 'E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m', 1317)" style="font-weight:bold">GeneralizedLinearMixedModel/fitStandardLMEModel</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m',1317,0)">第 1317 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GeneralizedLinearMixedModel/fitter', 'E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m', 891)" style="font-weight:bold">GeneralizedLinearMixedModel/fitter</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m',891,0)">第 891 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('classreg.regr/FitObject/doFit', 'E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\FitObject.m', 94)" style="font-weight:bold">classreg.regr/FitObject/doFit</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\+classreg\+regr\FitObject.m',94,0)">第 94 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GeneralizedLinearMixedModel.fit', 'E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m', 2417)" style="font-weight:bold">GeneralizedLinearMixedModel.fit</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\GeneralizedLinearMixedModel.m',2417,0)">第 2417 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fitglme', 'E:\matlab2020b\toolbox\stats\classreg\fitglme.m', 398)" style="font-weight:bold">fitglme</a> (<a href="matlab: opentoline('E:\matlab2020b\toolbox\stats\classreg\fitglme.m',398,0)">第 398 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('stat_3_DemoGLME', 'I:\ABCDStudyNDA\ABCD_DataAnalysis\Code_ScreenAnalysis2021\Pipeline\ABCD_SMA_Code_JAACAP2022\Step_2_CrossSectional\stat_3_DemoGLME.m', 25)" style="font-weight:bold">stat_3_DemoGLME</a> (<a href="matlab: opentoline('I:\ABCDStudyNDA\ABCD_DataAnalysis\Code_ScreenAnalysis2021\Pipeline\ABCD_SMA_Code_JAACAP2022\Step_2_CrossSectional\stat_3_DemoGLME.m',25,0)">第 25 行</a>)] 
+
+<strong>由 PL 拟合的广义线性混合效应模型</strong>
+
+<strong>模型信息:</strong>
+    观测值数目                            10309
+    固定效应系数                              17
+    随机效应系数                            8574
+    协方差参数                                2
+    分布                              Binomial
+    联系函数                            Logit 
+    FitMethod                       REMPL 
+
+<strong>公式:</strong>
+    Linear Mixed Formula with 14 predictors.
+
+<strong>模型拟合统计量:</strong>
+    AIC      BIC      LogLikelihood    Deviance
+    47722    47859    -23842           47684   
+
+<strong>固定效应系数(95% CI):</strong>
+    Name                                                    Estimate     SE          tStat       DF       pValue        Lower        Upper     
+    {'(Intercept)'                                 }          -1.1482     0.25145     -4.5665    10292    5.0166e-06      -1.6411      -0.65535
+    {'interview_age'                               }         0.040172    0.025478      1.5768    10292       0.11488    -0.009769      0.090113
+    {'sex_M'                                       }          0.87243    0.051668      16.885    10292    4.0618e-63      0.77115        0.9737
+    {'Race_PrntRep_Black'                          }          0.69857    0.078241      8.9283    10292    5.0625e-19       0.5452       0.85193
+    {'Race_PrntRep_Asian'                          }         -0.33282     0.22144      -1.503    10292       0.13287     -0.76688       0.10124
+    {'Race_PrntRep_Mixed/other'                    }          0.14082    0.070478      1.9981    10292      0.045737    0.0026685       0.27897
+    {'Ethnicity_PrntRep_No'                        }        -0.094882    0.076839     -1.2348    10292       0.21693      -0.2455      0.055739
+    {'BirthCountry_USA'                            }         -0.25856     0.21246      -1.217    10292       0.22363     -0.67502       0.15789
+    {'ParentMarital_Married or living with partner'}         -0.13199    0.069983      -1.886    10292      0.059322     -0.26917      0.005192
+    {'ParentsEdu_college education'                }         -0.28023    0.066757     -4.1977    10292    2.7191e-05     -0.41108      -0.14937
+    {'FamilyIncome'                                }         -0.30699    0.034995     -8.7724    10292    2.0264e-18     -0.37558      -0.23839
+    {'HouseholdSize'                               }        -0.055743    0.027782     -2.0064    10292      0.044834      -0.1102    -0.0012851
+    {'HouseholdStructure_Another household'        }          0.26938    0.077281      3.4858    10292    0.00049274       0.1179       0.42087
+    {'Relationship_sibling'                        }          -0.1676    0.076888     -2.1798    10292      0.029298     -0.31831     -0.016882
+    {'Relationship_twin/triplet'                   }        -0.044549     0.09075     -0.4909    10292       0.62351     -0.22244       0.13334
+    {'Handedness_Mixed'                            }         0.079797    0.072317      1.1034    10292       0.26986    -0.061958       0.22155
+    {'Handedness_Left'                             }        -0.047781    0.096713    -0.49405    10292       0.62128     -0.23736       0.14179
+
+<strong>随机效应协方差参数:</strong>
+组: site_id_l (22 个水平)
+    Name1                  Name2                  Type           Estimate
+    {'(Intercept)'}        {'(Intercept)'}        {'std'}        0.3703  
+
+组: site_id_l:FamilyID (8552 个水平)
+    Name1                  Name2                  Type           Estimate
+    {'(Intercept)'}        {'(Intercept)'}        {'std'}        0.56244 
+
+组: 误差
+    Name                        Estimate
+    {'sqrt(Dispersion)'}        1       
+

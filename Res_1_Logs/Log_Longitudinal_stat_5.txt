@@ -1,0 +1,48 @@
+Extract the significant main effect of SMA subgroups for RSFC LME analysis results
+========================================================================
+# RSFNC Interaction Effect: # 37 FCs uncorrected-p<0.05  # 0 FCs FDR-corrected p<0.05
+# RSFNC Time Main Effect: # 212 FCs uncorrected-p<0.05  # 198 FCs FDR-corrected p<0.05
+# RSFNC Idx Main Effect: # 65 FCs uncorrected-p<0.05  # 16 FCs FDR-corrected p<0.05
+========================================================================
+Significant RSFCs in Main effect of SMA subgroup
+    {'rsfmri_c_ngd_ca_ngd_ca'       }    {'cingulo parietal network'}    {'cingulo parietal network'      }
+    {'rsfmri_c_ngd_n_ngd_dt'        }    {'default network'         }    {'none network'                  }
+    {'rsfmri_c_ngd_smm_ngd_dt'      }    {'default network'         }    {'sensorimotor mouth network'    }
+    {'rsfmri_c_ngd_vta_ngd_ca'      }    {'cingulo parietal network'}    {'ventral attention network'     }
+    {'rsfmri_cor_ngd_df_scs_agrh'   }    {'right amygdala'          }    {'default network'               }
+    {'rsfmri_cor_ngd_df_scs_ptrh'   }    {'right putamen'           }    {'default network'               }
+    {'rsfmri_cor_ngd_dsa_scs_aarh'  }    {'right accumbens area'    }    {'dorsal attention network'      }
+    {'rsfmri_cor_ngd_dsa_scs_hplh'  }    {'left hippocampus'        }    {'dorsal attention network'      }
+    {'rsfmri_cor_ngd_dsa_scs_vtdcrh'}    {'right ventraldc'         }    {'dorsal attention network'      }
+    {'rsfmri_cor_ngd_fopa_scs_ptlh' }    {'left putamen'            }    {'fronto parietal network'       }
+    {'rsfmri_cor_ngd_rst_scs_aarh'  }    {'right accumbens area'    }    {'retrosplenial temporal network'}
+    {'rsfmri_cor_ngd_sa_scs_vtdclh' }    {'left ventraldc'          }    {'salience network'              }
+    {'rsfmri_cor_ngd_vta_scs_cdelh' }    {'left caudate'            }    {'ventral attention network'     }
+    {'rsfmri_cor_ngd_vta_scs_hplh'  }    {'left hippocampus'        }    {'ventral attention network'     }
+    {'rsfmri_cor_ngd_vta_scs_ptlh'  }    {'left putamen'            }    {'ventral attention network'     }
+    {'rsfmri_cor_ngd_vta_scs_thplh' }    {'left thalamus proper'    }    {'ventral attention network'     }
+
+# 15332 data points failed in rsfmri QC
+# which is equivalent to 4452 subjects ID will be removed
+These data points will be removed and the retained subjects ID will be matched across two time waves
+Befor RS-fMRI QC checking (recomended inclusion): # 20659 number of data points
+After RS-fMRI QC checking (recomended inclusion): # 15332 number of data points
+# 1543 data points have missing values (Total N=15332)
+List-wise deletion......
+Time waves for the input data table:
+                     Value    Count   Percent
+     baseline_year_1_arm_1     7577     54.95%
+  2_year_follow_up_y_arm_1     6212     45.05%
+Subject ID repeatition times after removing missing values:
+  Value    Count   Percent
+      1     3193     37.60%
+      2     5298     62.40%
+Selected the subject ID with repatition times>= the number of waves
+Time waves after matching ID across time waves:
+                     Value    Count   Percent
+     baseline_year_1_arm_1     5298     50.00%
+  2_year_follow_up_y_arm_1     5298     50.00%
+Recoding eventname to numric time waves (VarName:Time)......
+  Value    Count   Percent
+      0     5298     50.00%
+      1     5298     50.00%
