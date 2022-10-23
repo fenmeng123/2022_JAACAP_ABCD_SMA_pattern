@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset='utf-8'>
+<title></title>
+<style>
+body, pre {font-size: 10.5pt; font-family: Times New Roman;}
+p {margin: 0px;}
+table {border-collapse: collapse; border-spacing: 0px; color: #000000;
+       border-top: 2px solid #000000; border-bottom: 2px solid #000000;}
+table thead th {border-bottom: 1px solid #000000;}
+table th, table td {padding-left: 5px; padding-right: 5px; height: 19px;}
+</style>
+</head>
+
+<body>
+<p></p>
+<table>
+<thead>
+<tr> <th align='left'></th> <th align='right'>contrast</th> <th align='right'>estimate</th> <th align='right'>S.E.</th> <th align='right'>df</th> <th align='right'>z.ratio</th> <th align='right'>p</th> <th align='right'> </th> </tr>
+</thead>
+<tbody>
+<tr> <td align='left'>1</td> <td align='right'>Idx2 Time0 - Idx1 Time0</td> <td align='right'>–0.007</td> <td align='right'>(0.002)</td> <td align='right'>Inf</td> <td align='right'>–3.637</td> <td align='right'>.002</td> <td align='right'>**</td> </tr>
+<tr> <td align='left'>2</td> <td align='right'>Idx2 Time0 - Idx2 Time1</td> <td align='right'>–0.008</td> <td align='right'>(0.001)</td> <td align='right'>Inf</td> <td align='right'>–5.662</td> <td align='right'>< .001</td> <td align='right'>***</td> </tr>
+<tr> <td align='left'>3</td> <td align='right'>Idx2 Time0 - Idx1 Time1</td> <td align='right'>–0.007</td> <td align='right'>(0.002)</td> <td align='right'>Inf</td> <td align='right'>–3.493</td> <td align='right'>.003</td> <td align='right'>**</td> </tr>
+<tr> <td align='left'>4</td> <td align='right'>Idx1 Time0 - Idx2 Time1</td> <td align='right'>–0.001</td> <td align='right'>(0.002)</td> <td align='right'>Inf</td> <td align='right'>–0.408</td> <td align='right'>.977</td> <td align='right'></td> </tr>
+<tr> <td align='left'>5</td> <td align='right'>Idx1 Time0 - Idx1 Time1</td> <td align='right'>–0.000</td> <td align='right'>(0.002)</td> <td align='right'>Inf</td> <td align='right'>–0.063</td> <td align='right'>1.000</td> <td align='right'></td> </tr>
+<tr> <td align='left'>6</td> <td align='right'>Idx2 Time1 - Idx1 Time1</td> <td align='right'>0.001</td> <td align='right'>(0.002)</td> <td align='right'>Inf</td> <td align='right'>0.361</td> <td align='right'>.984</td> <td align='right'></td> </tr>
+</tbody>
+</table>
+<p></p>
+</body>
+
+</html>

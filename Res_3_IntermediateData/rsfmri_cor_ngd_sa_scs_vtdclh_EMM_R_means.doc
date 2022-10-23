@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset='utf-8'>
+<title></title>
+<style>
+body, pre {font-size: 10.5pt; font-family: Times New Roman;}
+p {margin: 0px;}
+table {border-collapse: collapse; border-spacing: 0px; color: #000000;
+       border-top: 2px solid #000000; border-bottom: 2px solid #000000;}
+table thead th {border-bottom: 1px solid #000000;}
+table th, table td {padding-left: 5px; padding-right: 5px; height: 19px;}
+</style>
+</head>
+
+<body>
+<p></p>
+<table>
+<thead>
+<tr> <th align='left'></th> <th align='right'>Idx</th> <th align='right'>Time</th> <th align='right'>emmean</th> <th align='right'>S.E.</th> <th align='right'>df</th> <th align='right'>asymp.LCL</th> <th align='right'>asymp.UCL</th> </tr>
+</thead>
+<tbody>
+<tr> <td align='left'>1</td> <td align='right'>2</td> <td align='right'>0.000</td> <td align='right'>–0.126</td> <td align='right'>(0.002)</td> <td align='right'>Inf</td> <td align='right'>–0.130</td> <td align='right'>–0.123</td> </tr>
+<tr> <td align='left'>2</td> <td align='right'>1</td> <td align='right'>0.000</td> <td align='right'>–0.117</td> <td align='right'>(0.002)</td> <td align='right'>Inf</td> <td align='right'>–0.122</td> <td align='right'>–0.113</td> </tr>
+<tr> <td align='left'>3</td> <td align='right'>2</td> <td align='right'>1.000</td> <td align='right'>–0.132</td> <td align='right'>(0.002)</td> <td align='right'>Inf</td> <td align='right'>–0.136</td> <td align='right'>–0.128</td> </tr>
+<tr> <td align='left'>4</td> <td align='right'>1</td> <td align='right'>1.000</td> <td align='right'>–0.124</td> <td align='right'>(0.003)</td> <td align='right'>Inf</td> <td align='right'>–0.130</td> <td align='right'>–0.119</td> </tr>
+</tbody>
+</table>
+<p></p>
+</body>
+
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style>
+body {font-size: 10.5pt; font-family: Times New Roman;}
+p {margin: 0px;}
+th, td {height: 19px;}
+table.texreg {margin: 1px auto;border-collapse: collapse;border-spacing: 0px;color: #000000;border-top: 2px solid #000000;}
+table.texreg thead .rule {border-bottom: 1px solid #000000;}
+table.texreg tbody tr.rule td {border-top: 1px solid #000000;}
+table.texreg tbody tr.bottomrule td {border-bottom: 2px solid #000000;}
+table.texreg tfoot td {font-size: 0.8em;}
+table.texreg th, table.texreg td {padding-left: 5px;padding-right: 5px;}
+</style>
+</head>
+<body>
+<p><b>Table X. Regression Models.</b></p>
+<table class="texreg">
+<thead>
+<tr>
+<th></th>
+<th>(1) rsfmri_cor_ngd_df_scs_agrh</th>
+</tr>
+</thead>
+<tbody>
+<tr class="rule">
+<td>baseline_age</td>
+<td>–.012</td>
+</tr>
+<tr>
+<td></td>
+<td>(.011)</td>
+</tr>
+<tr>
+<td>sexM</td>
+<td>–.051<sup>&#42;&#42;&#42;</sup></td>
+</tr>
+<tr>
+<td></td>
+<td>(.011)</td>
+</tr>
+<tr>
+<td>HandednessRight</td>
+<td>–.008</td>
+</tr>
+<tr>
+<td></td>
+<td>(.013)</td>
+</tr>
+<tr>
+<td>HandednessLeft</td>
+<td>–.006</td>
+</tr>
+<tr>
+<td></td>
+<td>(.013)</td>
+</tr>
+<tr>
+<td>Race_PrntRepBlack</td>
+<td>–.073<sup>&#42;&#42;&#42;</sup></td>
+</tr>
+<tr>
+<td></td>
+<td>(.013)</td>
+</tr>
+<tr>
+<td>Race_PrntRepAsian</td>
+<td>&ensp;.010</td>
+</tr>
+<tr>
+<td></td>
+<td>(.011)</td>
+</tr>
+<tr>
+<td>Race_PrntRepMixed/other</td>
+<td>&ensp;.002</td>
+</tr>
+<tr>
+<td></td>
+<td>(.011)</td>
+</tr>
+<tr>
+<td>Ethnicity_PrntRepHispanic/Latino/Latina</td>
+<td>–.012</td>
+</tr>
+<tr>
+<td></td>
+<td>(.013)</td>
+</tr>
+<tr>
+<td>ParentsEducollege education</td>
+<td>&ensp;.030<sup>&#42;</sup></td>
+</tr>
+<tr>
+<td></td>
+<td>(.013)</td>
+</tr>
+<tr>
+<td>ParentMaritalSingle</td>
+<td>–.029<sup>&#42;</sup></td>
+</tr>
+<tr>
+<td></td>
+<td>(.014)</td>
+</tr>
+<tr>
+<td>HouseholdSize</td>
+<td>–.001</td>
+</tr>
+<tr>
+<td></td>
+<td>(.012)</td>
+</tr>
+<tr>
+<td>FamilyIncome</td>
+<td>&ensp;.030<sup>&#42;</sup></td>
+</tr>
+<tr>
+<td></td>
+<td>(.015)</td>
+</tr>
+<tr>
+<td>HouseholdStructureAnother household</td>
+<td>–.017</td>
+</tr>
+<tr>
+<td></td>
+<td>(.011)</td>
+</tr>
+<tr>
+<td>Idx1</td>
+<td>–.046<sup>&#42;&#42;&#42;</sup></td>
+</tr>
+<tr>
+<td></td>
+<td>(.014)</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>–.012</td>
+</tr>
+<tr>
+<td></td>
+<td>(.015)</td>
+</tr>
+<tr>
+<td>RSfMRI_MeanFD</td>
+<td>&ensp;.028<sup>&#42;&#42;</sup></td>
+</tr>
+<tr>
+<td></td>
+<td>(.010)</td>
+</tr>
+<tr>
+<td>Idx1:Time</td>
+<td>–.001</td>
+</tr>
+<tr>
+<td></td>
+<td>(.013)</td>
+</tr>
+<tr class="rule">
+<td>Marginal <i>R</i><sup>2</sup></td>
+<td>&ensp;.024</td>
+</tr>
+<tr>
+<td>Conditional <i>R</i><sup>2</sup></td>
+<td>&ensp;.303</td>
+</tr>
+<tr>
+<td>AIC</td>
+<td>–23965.945</td>
+</tr>
+<tr>
+<td>BIC</td>
+<td>–23798.799</td>
+</tr>
+<tr>
+<td>Num. obs.</td>
+<td>10585</td>
+</tr>
+<tr>
+<td>Num. groups: src_subject_id:site_id_l</td>
+<td>5298</td>
+</tr>
+<tr>
+<td>Num. groups: site_id_l</td>
+<td>22</td>
+</tr>
+<tr>
+<td>Var: src_subject_id.site_id_l Time</td>
+<td>&ensp;.000</td>
+</tr>
+<tr>
+<td>Var: src_subject_id.site_id_l.1 (Intercept)</td>
+<td>&ensp;.001</td>
+</tr>
+<tr>
+<td>Var: site_id_l Time</td>
+<td>&ensp;.000</td>
+</tr>
+<tr>
+<td>Var: site_id_l.1 (Intercept)</td>
+<td>&ensp;.000</td>
+</tr>
+<tr class="bottomrule">
+<td>Var: Residual</td>
+<td>&ensp;.004</td>
+</tr>
+</tbody>
+</table>
+<p><i>Note</i>. Standardized regression coefficients are displayed, with standard errors in parentheses.</p><p>* <i>p</i> < .05. ** <i>p</i> < .01. *** <i>p</i> < .001.</p></body>
+</html>
