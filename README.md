@@ -5,18 +5,18 @@ First Upload Date: 2022.10
 
 Manuscript Accepted Update: 2023.3.23
 
+Ciation Info Updata: 2023.5.24
+
 Codes for the article "Youth Screen Media Activity Patterns and Associations with Behavioral Developmental Measures and Resting-state Brain Functional Connectivity".
 DOI: 10.1016/j.jaac.2023.02.014
 
-According to the ABCD Data Use of Certification (DUC), we cannot make some of the intermeidate data public. If any one want to use the ABCD data or replicate findings in this manuscript, it would be better to apply the ABCD data through the NIMH Data Archive (NDA) with the DUC signed by yourself/your institution.
+According to the ABCD Data Use of Certification (DUC), we cannot make some of the intermeidate data public. If any one want to use the ABCD data or replicate findings in this manuscript, it would be better to apply the ABCD Study data through the NIMH Data Archive (NDA) with the DUC signed by yourself/your institution.
 
-For more details about the analyses in this manuscript, please see the supplemental materials.
+For more details about the analyses in this manuscript, see supplemental materials for our published article.
 
 This article now has been accepted by _Journal of the American Academy of Child and Adolescent Psychiatry_. If you would like to use any codes in this repository, please cite
-*Kunru Song, Jia-Lin Zhang, Nan Zhou, Yu Fu, Bowen Zou, Lin-Xuan Xu, Ziliang Wang, Xin Li, Yihong Zhao, Marc Potenza, Xiaoyi Fang, Jin-Tao Zhang,
-Youth Screen Media Activity Patterns and Associations With Behavioral Developmental Measures and Resting-state Brain Functional Connectivity,
-Journal of the American Academy of Child & Adolescent Psychiatry,2023,https://doi.org/10.1016/j.jaac.2023.02.014.
-(https://www.sciencedirect.com/science/article/pii/S0890856723001326)* 
+*Song K, Zhang JL, Zhou N, et al. Youth Screen Media Activity Patterns and Associations With Behavioral Developmental Measures and Resting-state Brain Functional Connectivity [published online ahead of print, 2023 Mar 20]. J Am Acad Child Adolesc Psychiatry. 2023;S0890-8567(23)00132-6. doi:10.1016/j.jaac.2023.02.014* 
+
 Preprint Version Available at SSRN: https://ssrn.com/abstract=4141354 or http://dx.doi.org/10.2139/ssrn.4141354
 
 ### Res_1_Logs
